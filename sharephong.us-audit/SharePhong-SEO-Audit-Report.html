@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 22mm 18mm 25mm 18mm;
+    @bottom-center {
+      content: "Page " counter(page) " of " counter(pages);
+      font-size: 9pt;
+      color: #6b7280;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+    @bottom-left {
+      content: "Confidential";
+      font-size: 7pt;
+      color: #d6d3cc;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+    @bottom-right {
+      content: "sharephong.us Google SEO Report";
+      font-size: 8pt;
+      color: #cbd5e1;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+  }
+
+  @page :first {
+    margin: 0;
+    @bottom-left { content: none; }
+    @bottom-center { content: none; }
+    @bottom-right { content: none; }
+  }
+
+  @page toc {
+    @bottom-center {
+      content: counter(page);
+      font-size: 9pt;
+      color: #6b7280;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Times New Roman', 'DejaVu Serif', Georgia, serif;
+    font-size: 10pt;
+    line-height: 1.55;
+    color: #1e293b;
+    background: white;
+  }
+
+  /* ─── Title Page (Clean White) ─── */
+  .title-page {
+    page: first;
+    width: 210mm;
+    height: 297mm;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1a1a2e;
+    position: relative;
+    padding: 50mm 30mm 40mm 30mm;
+    border-top: 6mm solid #1e3a5f;
+  }
+
+  .title-page .badge {
+    background: #f7f6f3;
+    border: 1px solid #d6d3cc;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15mm;
+    color: #1e3a5f;
+  }
+
+  .title-page h1 {
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 5mm;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: #1a1a2e;
+  }
+
+  .title-page .subtitle {
+    font-size: 13pt;
+    color: #6b7280;
+    margin-bottom: 12mm;
+    font-weight: 300;
+  }
+
+  .title-page .url {
+    font-size: 12pt;
+    color: #1e3a5f;
+    margin-bottom: 15mm;
+    padding: 4mm 8mm;
+    border: 1px solid #d6d3cc;
+    border-radius: 6px;
+    background: #faf9f7;
+  }
+
+  .title-page .score-box {
+    background: #faf9f7;
+    border: 2px solid #d6d3cc;
+    border-radius: 12px;
+    padding: 6mm 12mm;
+    margin-bottom: 15mm;
+  }
+
+  .title-page .score-number {
+    font-size: 42pt;
+    font-weight: bold;
+    color: #1e3a5f;
+    line-height: 1;
+  }
+
+  .title-page .score-label {
+    font-size: 10pt;
+    color: #6b7280;
+    margin-top: 2mm;
+  }
+
+  .title-page .meta {
+    font-size: 9pt;
+    color: #6b7280;
+    margin-top: 8mm;
+    padding-top: 5mm;
+    border-top: 1px solid #d6d3cc;
+  }
+
+  .title-page .meta span {
+    margin: 0 8px;
+  }
+
+  /* ─── Mục lục ─── */
+  .toc-page {
+    page: toc;
+    page-break-before: always;
+  }
+
+  .toc-page h2 {
+    font-size: 18pt;
+    color: #1e3a5f;
+    margin-bottom: 8mm;
+    padding-bottom: 3mm;
+    border-bottom: 2px solid #1e3a5f;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .toc-list li {
+    padding: 2mm 0;
+    border-bottom: 1px solid #f1f5f9;
+    overflow: hidden;
+  }
+
+  .toc-list li.toc-section {
+    font-weight: bold;
+    font-size: 11pt;
+    padding-top: 4mm;
+    color: #0f172a;
+  }
+
+  .toc-list li.toc-sub {
+    padding-left: 8mm;
+    font-size: 9.5pt;
+    color: #475569;
+  }
+
+  .toc-score {
+    display: inline-block;
+    float: right;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: white;
+  }
+
+  .score-good { background: #2d6a4f; }
+  .score-warn { background: #d4740e; }
+  .score-bad { background: #c53030; }
+
+  /* ─── Section Styles ─── */
+  div.section {
+    page-break-before: always;
+  }
+
+  .section-header {
+    background: #faf9f7;
+    border-left: 4px solid #1e3a5f;
+    padding: 5mm 6mm;
+    margin-bottom: 6mm;
+    page-break-after: avoid;
+  }
+
+  .section-header h2 {
+    font-size: 16pt;
+    color: #0f172a;
+    margin-bottom: 1mm;
+  }
+
+  .section-header .section-score {
+    font-size: 12pt;
+    font-weight: bold;
+    float: right;
+    margin-top: -6mm;
+  }
+
+  h3 {
+    font-size: 12pt;
+    color: #1e3a5f;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
+    padding-bottom: 1.5mm;
+    border-bottom: 1px solid #d6d3cc;
+    page-break-after: avoid;
+  }
+
+  h4 {
+    font-size: 10.5pt;
+    color: #334155;
+    margin-top: 4mm;
+    margin-bottom: 2mm;
+    page-break-after: avoid;
+  }
+
+  p {
+    margin-bottom: 3mm;
+    color: #334155;
+  }
+
+  .highlight {
+    background: #fef3c7;
+    border-left: 3px solid #d4740e;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .critical-box {
+    background: #fef2f2;
+    border-left: 3px solid #c53030;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .success-box {
+    background: #f0fdf4;
+    border-left: 3px solid #2d6a4f;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  /* ─── Tables ─── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4mm 0 6mm 0;
+    font-size: 9pt;
+  }
+
+  thead th {
+    background: #f7f6f3;
+    color: #0f172a;
+    font-weight: bold;
+    padding: 3mm 4mm;
+    text-align: left;
+    border-bottom: 2px solid #d6d3cc;
+    font-size: 9pt;
+  }
+
+  tbody td {
+    padding: 2.5mm 3mm;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #fdfcfa;
+  }
+
+  .status-pass {
+    color: #2d6a4f;
+    font-weight: bold;
+  }
+
+  .status-fail {
+    color: #c53030;
+    font-weight: bold;
+  }
+
+  .status-warn {
+    color: #d4740e;
+    font-weight: bold;
+  }
+
+  .status-partial {
+    color: #4a5568;
+    font-weight: bold;
+  }
+
+  /* ─── Charts ─── */
+  .chart-container {
+    text-align: center;
+    margin: 4mm 0;
+  }
+
+  .chart-container img {
+    max-width: 100%;
+    max-height: 120mm;
+    height: auto;
+  }
+
+  .chart-caption {
+    font-size: 8.5pt;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 2mm;
+    text-align: center;
+  }
+
+  .chart-half {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .chart-half img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ─── Two column layout ─── */
+  .two-col {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 3mm 0;
+  }
+
+  .two-col .col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 2mm;
+  }
+
+  .four-col {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 3mm 0;
+  }
+
+  .four-col .col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 1.5mm;
+  }
+
+  /* ─── Metric Cards ─── */
+  .metric-card {
+    background: #faf9f7;
+    border: 1px solid #d6d3cc;
+    border-radius: 6px;
+    padding: 2.5mm 3mm;
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .metric-card .value {
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .metric-card .label {
+    font-size: 7.5pt;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 1mm;
+  }
+
+  /* ─── Kế hoạch khắc phục ─── */
+  .action-item {
+    background: #faf9f7;
+    border-radius: 4px;
+    padding: 3mm 4mm;
+    margin: 3mm 0;
+    border-left: 3px solid #cbd5e1;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .action-item.critical {
+    border-left-color: #c53030;
+    background: #fdf2f2;
+  }
+
+  .action-item.high {
+    border-left-color: #d4740e;
+    background: #fdf8ef;
+  }
+
+  .action-item.medium {
+    border-left-color: #1e3a5f;
+    background: #f0f4f8;
+  }
+
+  .action-item.low {
+    border-left-color: #94a3b8;
+  }
+
+  .action-item h4 {
+    margin-top: 0;
+    margin-bottom: 1.5mm;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .action-item .effort {
+    font-size: 8.5pt;
+    color: #64748b;
+    float: right;
+  }
+
+  .priority-tag {
+    display: inline-block;
+    padding: 0.5mm 3mm;
+    border-radius: 3px;
+    font-size: 8pt;
+    font-weight: bold;
+    color: white;
+    margin-right: 2mm;
+    vertical-align: middle;
+  }
+
+  .priority-critical { background: #c53030; }
+  .priority-high { background: #d4740e; }
+  .priority-medium { background: #1e3a5f; }
+  .priority-low { background: #94a3b8; }
+
+  /* ─── Code blocks ─── */
+  .code-block {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 3mm 4mm;
+    border-radius: 4px;
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 8pt;
+    line-height: 1.6;
+    margin: 3mm 0;
+    white-space: pre-wrap;
+    word-break: break-all;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  /* ─── Divider ─── */
+  .divider {
+    border: none;
+    border-top: 1px solid #d6d3cc;
+    margin: 5mm 0;
+  }
+
+  /* ─── Roadmap ─── */
+  .roadmap-phase {
+    background: #faf9f7;
+    border-radius: 6px;
+    padding: 4mm 5mm;
+    margin: 4mm 0;
+    border: 1px solid #d6d3cc;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .roadmap-phase h4 {
+    margin-top: 0;
+    border-bottom: none;
+    color: #1e3a5f;
+  }
+
+  .roadmap-phase ul {
+    margin: 2mm 0 0 5mm;
+    padding: 0;
+  }
+
+  .roadmap-phase li {
+    margin-bottom: 1.5mm;
+    font-size: 9.5pt;
+    color: #334155;
+  }
+
+  /* ─── Lists ─── */
+  ul {
+    margin-left: 5mm;
+    margin-bottom: 3mm;
+  }
+
+  li {
+    margin-bottom: 1.5mm;
+  }
+
+  /* ─── Data freshness ─── */
+  .data-freshness {
+    font-size: 8pt;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 4mm;
+    padding-top: 2mm;
+    border-top: 1px solid #d6d3cc;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- ======================================================= TITLE PAGE === -->
+<div class="title-page">
+  <div class="badge">Báo cáo kiểm tra SEO toàn diện</div>
+  <h1>sharephong.us</h1>
+  <div class="subtitle">Báo cáo phân tích SEO &amp; hướng dẫn khắc phục</div>
+  <div class="score-box">
+    <div class="score-number">43<span style="font-size: 20pt; color: #94a3b8;">/100</span></div>
+    <div class="score-label">Điểm sức khoẻ SEO</div>
+  </div>
+  <div class="meta">
+    <span>25/09/2026</span>
+    <span>Audit toàn site</span>
+  </div>
+</div>
+
+
+<!-- ======================================================= TABLE OF CONTENTS === -->
+<div class="toc-page">
+  <h2>Mục lục</h2>
+  <ul class="toc-list">
+    <li class="toc-section"><span>1. Tóm tắt tổng quan</span></li>
+    <li class="toc-sub"><span>Chỉ số chính, lỗi nghiêm trọng &amp; việc làm nhanh</span></li>
+    <li class="toc-section"><span>2. Kết quả theo hạng mục</span></li>
+    <li class="toc-sub"><span>Điểm đang làm tốt</span></li>
+    <li class="toc-sub"><span>Vấn đề theo mức độ &amp; cách khắc phục</span></li>
+    <li class="toc-section"><span>3. Core Web Vitals &amp; Hiệu suất</span> <span class="toc-score score-warn">53</span></li>
+    <li class="toc-sub"><span>Điểm Lighthouse &amp; chỉ số lab</span></li>
+    <li class="toc-sub"><span>So sánh 3 loại trang</span></li>
+        <li class="toc-section"><span>4. Kế hoạch khắc phục</span></li>
+    <li class="toc-sub"><span>Lộ trình theo giai đoạn</span></li>
+    <li class="toc-section"><span>5. Nguồn dữ liệu &amp; Phương pháp</span></li>
+  </ul>
+</div>
+
+
+<!-- ======================================================= 1. EXECUTIVE SUMMARY === -->
+<div class="section">
+  <div class="section-header">
+    <h2>1. Tóm tắt tổng quan</h2>
+  </div>
+
+  <p>Báo cáo này trình bày kết quả kiểm tra SEO toàn diện cho <strong>sharephong.us</strong>, một marketplace rao vặt cho thuê phòng và nhà dành cho cộng đồng người Việt tại Mỹ (song ngữ Việt/Anh, xây dựng bằng Next.js). Dữ liệu được thu thập ngày 25/09/2026 từ sitemap (1.198 URL), crawl 309 trang mẫu, render JavaScript bằng Chrome headless và đo hiệu suất bằng Lighthouse.</p><p><strong>Kết luận chính:</strong> Nội dung tin đăng thật và trang thành phố là nền tảng tốt. Tuy nhiên, các lỗi kỹ thuật đang cản Google và AI search index đúng các trang này: sitemap sai, hreflang lỗi, tin đăng chỉ hiện sau khi chạy JavaScript, soft 404, và không có schema. Phần lớn lỗi nghiêm trọng có thể sửa trong 1–2 tuần.</p><p><em>Lưu ý: điểm Lighthouse SEO 100/100 chỉ kiểm tra các thẻ cơ bản trên một trang (title, meta, lang…). Nó không phát hiện lỗi sitemap, hreflang trỏ tới 404, soft 404 hay nội dung chỉ tải bằng JavaScript. Vì vậy điểm sức khoẻ SEO tổng thể (43/100) mới là con số phản ánh đúng tình trạng site.</em></p>
+
+  <div class="two-col">
+    <div class="col">
+      <div class="metric-card">
+        <div class="value" style="color: #c53030;">43/100</div>
+        <div class="label">Điểm sức khoẻ SEO</div>
+      </div>
+
+    </div>
+    <div class="col">
+      <div class="metric-card">
+        <div class="value" style="color: #d4740e;">53/100</div>
+        <div class="label">Lighthouse Performance</div>
+      </div>
+
+    </div>
+    <div class="col">
+      <div class="metric-card">
+        <div class="value" style="color: #2d6a4f;">100/100</div>
+        <div class="label">Lighthouse SEO</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="critical-box">
+    <strong>Các lỗi nghiêm trọng nhất:</strong>
+    <ol>
+      <li><strong>Nghiêm trọng:</strong> 576/1.198 URL trong sitemap (48%) là URL sai: toàn bộ trang tin đăng /properties/ đều bị chuyển hướng 308 sang bản có dấu “/”</li>
+      <li><strong>Nghiêm trọng:</strong> Danh sách tin đăng trên trang tìm kiếm và trang chủ chỉ tải bằng JavaScript: HTML gốc không có tin nào, và phải chờ hơn 20 giây mới hiện</li>
+      <li><strong>Nghiêm trọng:</strong> Hreflang trên 100% trang tin đăng (70/70 mẫu) trỏ tới /city/... và trả về lỗi 404</li>
+      <li><strong>Cao:</strong> Lỗi soft 404: URL tin đăng hoặc thành phố không tồn tại vẫn trả mã 200</li>
+      <li><strong>Cao:</strong> Không có dữ liệu có cấu trúc (JSON-LD) ở bất kỳ trang nào; hiệu suất di động chỉ đạt 38–53/100</li>
+    </ol>
+  </div>
+
+  <div class="success-box">
+    <strong>Việc làm nhanh, hiệu quả cao:</strong>
+    <ol>
+      <li>Sửa sitemap để xuất URL có dấu “/”, thêm &lt;lastmod&gt;, và khai báo “Sitemap:” trong robots.txt</li>
+      <li>Sửa đường dẫn hreflang của trang tin đăng: /city/ → /properties/, và thêm x-default</li>
+      <li>Trả mã 404 thật (notFound: true) cho tin đăng hoặc thành phố không tồn tại</li>
+      <li>Bỏ user-scalable=no và maximum-scale=1 khỏi thẻ viewport</li>
+      <li>Bỏ thẻ H1 thứ hai bị trùng trên trang tìm kiếm, và bỏ og:url trùng lặp</li>
+    </ol>
+  </div>
+
+</div>
+
+<!-- ======================================================= 2. AUDIT CATEGORIES === -->
+<div class="section">
+  <div class="section-header">
+    <h2>2. Kết quả theo hạng mục</h2>
+  </div>
+
+  <h3>2.1 SEO kỹ thuật (Technical SEO)</h3>
+  <p><strong>Điểm:</strong> <span class="status-fail">40/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>HTTPS hoạt động; http:// chuyển hướng 1 bước về https://</li>
+    <li>Trang tìm kiếm, thành phố và tin đăng đều có canonical tự tham chiếu</li>
+    <li>URL có tham số lọc (?beds=2…) canonical về trang gốc; trang /auth/ có noindex</li>
+    <li>Trang /city/ không tồn tại trả mã 404 chuẩn</li>
+    <li>Nén gzip được bật; file tĩnh /_next/static được cache 1 năm (immutable)</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>48% sitemap là URL chuyển hướng (308) <span class="status-warn">Nghiêm trọng</span></h4>
+    <p>Toàn bộ 576 URL /properties/ và /en/properties/ trong sitemap.xml không có dấu “/” ở cuối. Kiểm tra 74/74 mẫu đều trả 308 Permanent Redirect sang bản có “/”. Google xem đây là tín hiệu sitemap kém chất lượng và lãng phí ngân sách crawl.</p>
+    <p><strong>Cách khắc phục:</strong> Sinh URL trong sitemap đúng theo bản canonical (có “/” cuối, vì Next.js đang đặt trailingSlash: true). Sau đó gửi lại sitemap trong Google Search Console.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Tin đăng chỉ render bằng JavaScript (CSR) <span class="status-warn">Nghiêm trọng</span></h4>
+    <p>HTML máy chủ trả về cho /search/san-jose/ có 0 liên kết tới tin đăng; __NEXT_DATA__ chỉ chứa toạ độ thành phố. Chỉ sau khi chạy JS mới hiện 30 tin, và nhiều lần phải chờ hơn 20 giây. Trang chủ cũng vậy: 0 tin trong HTML, 50 tin sau render. Bing, ChatGPT/GPTBot, Perplexity, ClaudeBot không chạy JS nên thấy trang trống. Googlebot phải xếp hàng render nên phát hiện tin mới rất chậm.</p>
+    <p><strong>Cách khắc phục:</strong> Chuyển trang /search/*, /city/* và trang chủ sang getServerSideProps (hoặc ISR với revalidate 300–600 giây) để trả danh sách tin (tiêu đề, giá, địa chỉ, link &lt;a href&gt;) ngay trong HTML.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Hreflang trang tin đăng trỏ tới URL 404 <span class="status-warn">Nghiêm trọng</span></h4>
+    <p>Trên 70/70 trang tin đăng kiểm tra, hreflang vi/en trỏ tới https://sharephong.us/city/&lt;slug&gt;/ và /en/city/&lt;slug&gt;/, cả hai đều trả 404. Bản tiếng Anh thật nằm ở /en/properties/&lt;slug&gt;/. Google sẽ bỏ qua toàn bộ hreflang của gần 600 trang, và cặp Việt–Anh bị coi là nội dung trùng lặp.</p>
+    <p><strong>Cách khắc phục:</strong> Sửa component tạo hreflang cho route properties: dùng /properties/ và /en/properties/. Thêm hreflang=&quot;x-default&quot; cho mọi trang, và thêm canonical + hreflang cho trang chủ (/ và /en/).</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Soft 404 (trang lỗi trả mã 200) <span class="status-warn">Cao</span></h4>
+    <p>/properties/does-not-exist-xyz/ trả 200 với nội dung “Oops, that page is not here… Error 404”. /search/not-a-city-xyz/ trả 200 với tiêu đề “Cho Thuê Nhà - Thuê Phòng ở , ”. Google sẽ index các trang rỗng này, và tin đã xoá hoặc hết hạn cũng sẽ không bao giờ bị loại khỏi chỉ mục.</p>
+    <p><strong>Cách khắc phục:</strong> Trong getServerSideProps/getStaticProps, trả { notFound: true } khi không tìm thấy tin hoặc thành phố. Tin đã cho thuê xong thì trả 410, hoặc 301 về trang tìm kiếm của thành phố đó.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Máy chủ phản hồi chậm (TTFB cao) <span class="status-warn">Cao</span></h4>
+    <p>Thời gian phản hồi trung bình của 238 URL crawl là 5,6 giây (p90: 14,3 giây, tối đa: 24 giây). Lighthouse đo TTFB của trang tin đăng là 4,96 giây. Riêng sitemap.xml mất 14,7 giây. Header Cache-Control: private, no-store tắt mọi cache. Máy chủ còn chạy HTTP/1.1, chưa có HTTP/2.</p>
+    <p><strong>Cách khắc phục:</strong> Bật HTTP/2 (hoặc HTTP/3) trên nginx. Dùng ISR hoặc cache ở CDN (Cloudflare/Vercel) với s-maxage và stale-while-revalidate cho trang công khai. Cache sitemap.xml tĩnh, sinh lại mỗi giờ. Tối ưu truy vấn cơ sở dữ liệu/API cho trang tin đăng.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Sitemap thiếu lastmod và bị lạm dụng priority <span class="status-warn">Trung bình</span></h4>
+    <p>1.198 URL đều có priority 1.0 và changefreq daily, không URL nào có &lt;lastmod&gt;. Google bỏ qua priority/changefreq, còn lastmod là tín hiệu duy nhất giúp crawl lại tin mới.</p>
+    <p><strong>Cách khắc phục:</strong> Thêm &lt;lastmod&gt; (ngày cập nhật tin), bỏ priority và changefreq. Tách thành sitemap index: sitemap-properties.xml, sitemap-locations.xml, sitemap-en.xml.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Hơn 560 trang lọc (facet) mỏng hoặc rỗng nằm trong sitemap <span class="status-warn">Cao</span></h4>
+    <p>Sitemap chứa 270 URL facet tiếng Việt và 270 tiếng Anh dạng /search/&lt;city&gt;/&lt;loại-nhà&gt;/&lt;lối-đi-riêng&gt;/. Trong 12 trang facet kiểm tra (sau khi render JS), 8 trang có 0 kết quả, ví dụ garland/garage-conversion/private-entrance, bay-area/apartment, louisville-ky/mobile-home. Kiểu thin content hàng loạt này có thể kéo chất lượng toàn site xuống.</p>
+    <p><strong>Cách khắc phục:</strong> Chỉ đưa facet có từ 3 tin trở lên vào sitemap. Facet có 0 tin thì gắn noindex,follow (hoặc trả 404 nếu tổ hợp không hợp lệ). Mỗi facet được giữ lại cần tiêu đề/H1 và đoạn giới thiệu riêng.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>robots.txt thiếu nhóm mặc định và khai báo Sitemap <span class="status-warn">Trung bình</span></h4>
+    <p>robots.txt chỉ có nhóm Twitterbot/Googlebot/Bingbot/facebookexternalhit (đều Allow: /). Không có nhóm “User-agent: *”, không có dòng Sitemap:, và không chặn /auth/ hay /properties/add/.</p>
+    <p><strong>Cách khắc phục:</strong> Thêm nhóm User-agent: * với Disallow: /auth/, /properties/add/, /api/ (trừ /api/images/). Thêm dòng Sitemap: https://sharephong.us/sitemap.xml.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Thiếu header bảo mật; www không phân giải DNS <span class="status-warn">Thấp</span></h4>
+    <p>Không có Strict-Transport-Security, X-Content-Type-Options, Referrer-Policy hay Content-Security-Policy. www.sharephong.us không có bản ghi DNS, nên người dùng gõ www sẽ gặp lỗi.</p>
+    <p><strong>Cách khắc phục:</strong> Thêm các header này trong nginx hoặc next.config.js. Tạo bản ghi DNS cho www và 301 về https://sharephong.us.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.2 Chất lượng nội dung (Content &amp; E-E-A-T)</h3>
+  <p><strong>Điểm:</strong> <span class="status-warn">50/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>Trang /city/ có nội dung riêng khá tốt (khoảng 550 từ, có mục Câu hỏi thường gặp và liên kết tới danh mục)</li>
+    <li>Tin đăng có nội dung thật do người dùng viết: giá, tiền cọc, số phòng, tiện ích, mô tả</li>
+    <li>Có phiên bản tiếng Anh cho mọi loại trang</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>Trang tìm kiếm chứa khoảng 1.900 “từ” rác từ icon SVG <span class="status-warn">Cao</span></h4>
+    <p>HTML của trang /search/* chứa 193 lần chuỗi “A line styled icon from Orion Icon Library” (thẻ &lt;title&gt; trong sprite SVG). Đây là gần như toàn bộ văn bản Google đọc được trên trang, trong khi nội dung thật (tin đăng) lại không có.</p>
+    <p><strong>Cách khắc phục:</strong> Xoá thẻ &lt;title&gt; trong sprite SVG, hoặc đặt aria-hidden và chỉ nạp các icon thực sự dùng. Thêm đoạn giới thiệu 80–150 từ riêng cho từng thành phố trên trang tìm kiếm.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Trang chủ nội dung mỏng <span class="status-warn">Trung bình</span></h4>
+    <p>Trang chủ chỉ có 134 từ, H1 “Tìm và đăng nhà miễn phí” và 12 liên kết thành phố. Không liên kết tới các trang /city/ (trang có nội dung tốt nhất), chỉ liên kết /search/.</p>
+    <p><strong>Cách khắc phục:</strong> Bổ sung khối giới thiệu dịch vụ, số liệu (số tin, số thành phố), tin mới nhất ở dạng SSR và liên kết tới /city/ và /state/. Viết lại H1 chứa từ khoá “thuê phòng, share phòng cho người Việt tại Mỹ”.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Thiếu tín hiệu E-E-A-T/tin cậy <span class="status-warn">Trung bình</span></h4>
+    <p>/about/ trả 404. Không có trang Giới thiệu, Liên hệ, Chính sách, Điều khoản hay Hướng dẫn an toàn khi thuê nhà. Chỉ có email và liên kết Facebook ở footer. Footer vẫn ghi “© 2025”.</p>
+    <p><strong>Cách khắc phục:</strong> Tạo trang Giới thiệu (đội ngũ, sứ mệnh), Liên hệ, Điều khoản/Quyền riêng tư và Mẹo tránh lừa đảo khi thuê nhà. Tự động cập nhật năm trong footer.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Tin đăng cũ không được xử lý <span class="status-warn">Trung bình</span></h4>
+    <p>Trang tin mẫu /properties/fort-worth-tx-76179/ hiển thị “Ngày đăng: 8 tháng trước” nhưng vẫn index được và có trong sitemap. Tin hết hạn làm trải nghiệm tệ và giảm chất lượng tổng thể.</p>
+    <p><strong>Cách khắc phục:</strong> Đặt thời hạn cho tin (ví dụ 60–90 ngày). Khi hết hạn thì gắn noindex, hiển thị “Đã cho thuê” kèm tin tương tự, và loại khỏi sitemap. Sau 6 tháng thì trả 410.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.3 SEO On-page</h3>
+  <p><strong>Điểm:</strong> <span class="status-warn">55/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>Title và meta description là duy nhất trên các trang tìm kiếm, thành phố và bang</li>
+    <li>Thuộc tính lang đúng (vi / en) theo từng phiên bản</li>
+    <li>Trang thành phố có một H1 duy nhất, chứa từ khoá và địa danh</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>Trang tìm kiếm có 2 thẻ H1 giống hệt nhau <span class="status-warn">Trung bình</span></h4>
+    <p>Cả 121/121 trang /search/ kiểm tra đều có 2 H1 “Phòng và nhà cho thuê tại San Jose, CA, USA” (một cho mobile, một cho desktop).</p>
+    <p><strong>Cách khắc phục:</strong> Chỉ giữ một H1. Khối còn lại đổi thành &lt;p&gt; hoặc &lt;div&gt; có class h3, hoặc dùng CSS responsive cho cùng một thẻ.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Meta description tin đăng lấy nguyên văn mô tả người dùng <span class="status-warn">Trung bình</span></h4>
+    <p>Description của tin là nguyên đoạn mô tả người dùng: có xuống dòng, emoji, số điện thoại, dài hàng trăm ký tự. Ví dụ “Mình có ba phòng available… liên lạc: Chuong 832-788-7380…”. Một số tin hiển thị “$0/month $0 deposit”.</p>
+    <p><strong>Cách khắc phục:</strong> Dùng template: “{Loại phòng} cho thuê tại {Thành phố}, {Bang} – ${giá}/tháng, {n} phòng ngủ, {tiện ích nổi bật}. Xem ảnh &amp; liên hệ chủ nhà trên SharePhong.” Giới hạn khoảng 155 ký tự, bỏ số điện thoại và emoji. Ẩn giá khi bằng 0.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Title tin đăng chung chung và bị trùng <span class="status-warn">Trung bình</span></h4>
+    <p>Title bắt đầu bằng “Cho Thuê Nhà - Thuê Phòng ở …” hoặc “House for rent - Rooms for rent in …”, thường có hai dấu cách liền nhau. Tin chỉ có thành phố + ZIP bị trùng title (3/71 mẫu, ví dụ “… Garden Grove CA 92843”).</p>
+    <p><strong>Cách khắc phục:</strong> Template: “{Loại phòng} ${giá}/tháng – {Khu vực}, {Thành phố} {Bang} | SharePhong”. Chuẩn hoá khoảng trắng và thêm mã tin nếu vẫn trùng.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Thẻ Open Graph lỗi <span class="status-warn">Thấp</span></h4>
+    <p>Trang tìm kiếm có 2 thẻ og:url (một trỏ về trang chủ). og:url trang chủ thiếu “/”. 38% tin đăng mẫu (27/71) và mọi trang danh mục dùng ảnh placeholder detailPropertyImagePlaceholder.jpeg làm og:image.</p>
+    <p><strong>Cách khắc phục:</strong> Mỗi trang chỉ một og:url trùng canonical. Dùng ảnh đầu tiên của tin làm og:image. Thiết kế ảnh OG riêng cho trang thành phố và trang chủ (1200×630).</p>
+  </div>
+  <hr class="divider">
+  <h3>2.4 Dữ liệu có cấu trúc (Schema)</h3>
+  <p><strong>Điểm:</strong> <span class="status-fail">10/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>Không có schema lỗi (vì chưa có schema nào)</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>Không có bất kỳ JSON-LD nào trên toàn site <span class="status-warn">Cao</span></h4>
+    <p>Đã kiểm tra hơn 230 trang: 0 khối application/ld+json. Site bỏ lỡ tín hiệu thực thể (Organization/WebSite), breadcrumb trên SERP và dữ liệu để AI hiểu tin đăng.</p>
+    <p><strong>Cách khắc phục:</strong> Trang chủ: Organization (name, logo, sameAs Facebook) + WebSite. Mọi trang: BreadcrumbList (Trang chủ › Bang › Thành phố › Tin). Trang tin: Accommodation/SingleFamilyResidence/Apartment kèm address (PostalAddress), numberOfRooms, floorSize, amenityFeature, và Offer (price, priceCurrency USD, availability). Trang tìm kiếm/thành phố: ItemList các tin. Kiểm tra bằng Rich Results Test.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Mục FAQ trên trang thành phố chưa có schema <span class="status-warn">Thấp</span></h4>
+    <p>Trang /city/* có 5 câu hỏi thường gặp nhưng không có FAQPage markup. Google hiện hạn chế hiển thị rich result FAQ, nhưng markup vẫn giúp AI search trích dẫn.</p>
+    <p><strong>Cách khắc phục:</strong> Thêm FAQPage JSON-LD khớp nguyên văn nội dung hiển thị.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.5 Hiệu suất (Core Web Vitals)</h3>
+  <p><strong>Điểm:</strong> <span class="status-fail">35/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>CLS tốt (0–0,053)</li>
+    <li>Tài nguyên tĩnh của Next.js được cache lâu dài</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>LCP di động rất chậm <span class="status-warn">Cao</span></h4>
+    <p>Lighthouse di động (lab): trang chủ LCP 4,7 giây, điểm hiệu suất 53. Trang tìm kiếm LCP 18,0 giây, điểm 38. Trang tin đăng LCP 9,8 giây, điểm 40, TTFB 4,96 giây. Ngưỡng tốt là ≤2,5 giây.</p>
+    <p><strong>Cách khắc phục:</strong> Render tin trên máy chủ, preload ảnh LCP (next/image priority), dùng preconnect tới domain ảnh, và cache HTML ở CDN.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>JavaScript thừa khoảng 1 MB, TBT 610–760 ms <span class="status-warn">Cao</span></h4>
+    <p>Lighthouse ước tính giảm được 811–1.039 KiB JS không dùng trên mỗi trang. Main-thread 3,2–6,0 giây. Bundle i18n toàn bộ được nhúng vào __NEXT_DATA__. Mã bên thứ ba (AdSense, Facebook) chặn thêm khoảng 300 ms.</p>
+    <p><strong>Cách khắc phục:</strong> Tách code theo route (dynamic import cho bản đồ, form đăng tin, modal). Chỉ nạp namespace i18n cần cho trang. Trì hoãn AdSense/Facebook SDK (next/script strategy=lazyOnload). Bỏ polyfill legacy.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Ảnh chưa tối ưu <span class="status-warn">Trung bình</span></h4>
+    <p>Trang tin đăng có thể tiết kiệm 360 KiB nếu dùng WebP/AVIF, 126 KiB nếu nén lại, 60 KiB nếu đúng kích thước. Ảnh phục vụ qua /api/images/&lt;hash&gt; không qua bộ tối ưu next/image.</p>
+    <p><strong>Cách khắc phục:</strong> Chuyển ảnh sang WebP/AVIF khi upload, tạo nhiều kích thước (srcset) và phục vụ qua CDN có cache dài hạn.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.6 Sẵn sàng cho AI Search (GEO)</h3>
+  <p><strong>Điểm:</strong> <span class="status-fail">35/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>robots.txt không chặn crawler AI</li>
+    <li>Trang thành phố có định dạng hỏi–đáp, dễ trích dẫn</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>Crawler AI không thấy tin đăng <span class="status-warn">Cao</span></h4>
+    <p>GPTBot, PerplexityBot, ClaudeBot và Google-Extended không chạy JavaScript. Với họ, trang chủ và trang tìm kiếm không có tin nào, chỉ có text icon. Vì vậy ChatGPT/Perplexity sẽ không gợi ý SharePhong khi người dùng hỏi “thuê phòng người Việt ở San Jose”.</p>
+    <p><strong>Cách khắc phục:</strong> Ưu tiên sửa SSR (xem mục SEO kỹ thuật). Thêm llms.txt (hiện trả 404) mô tả site, các thành phố chính và link tới trang /city/.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Thiếu tín hiệu thực thể thương hiệu <span class="status-warn">Trung bình</span></h4>
+    <p>Không có schema Organization, sameAs hay trang Giới thiệu. Tên thương hiệu không nhất quán: “Share phòng US”, “SharePhong US”, “sharephong.us”.</p>
+    <p><strong>Cách khắc phục:</strong> Chuẩn hoá một tên thương hiệu. Thêm Organization + sameAs (Facebook page, group). Xây dựng đề cập thương hiệu trên các diễn đàn/báo cộng đồng người Việt.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.7 Hình ảnh</h3>
+  <p><strong>Điểm:</strong> <span class="status-warn">55/100</span></p>
+  <h4>Điểm đang làm tốt</h4>
+  <ul>
+    <li>100% thẻ &lt;img&gt; có thuộc tính alt</li>
+    <li>Ảnh card dùng lazy-loading</li>
+  </ul>
+  <h4>Vấn đề phát hiện</h4>
+  <div class="action-item medium">
+    <h4>Alt text chung chung <span class="status-warn">Thấp</span></h4>
+    <p>Ảnh tin đăng dùng alt=&quot;Card image&quot;, logo dùng alt=&quot;Directory logo&quot;. Không mô tả nội dung, nên bỏ lỡ cơ hội xuất hiện trên Google Images.</p>
+    <p><strong>Cách khắc phục:</strong> alt = “{Loại phòng} cho thuê tại {địa chỉ/thành phố} – ảnh {n}”, logo = “SharePhong US”.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Viewport chặn phóng to <span class="status-warn">Trung bình</span></h4>
+    <p>&lt;meta name=viewport … maximum-scale=1, user-scalable=no&gt; ngăn người dùng zoom ảnh và chữ. Đây là lỗi trợ năng (Lighthouse Accessibility), kèm lỗi độ tương phản màu.</p>
+    <p><strong>Cách khắc phục:</strong> Đổi thành content=&quot;width=device-width, initial-scale=1&quot;. Tăng độ tương phản của chữ xám nhạt.</p>
+  </div>
+  <hr class="divider">
+</div>
+
+<!-- ======================================================= 3. CORE WEB VITALS === -->
+<div class="section">
+  <div class="section-header">
+    <h2>3. Core Web Vitals &amp; Hiệu suất</h2>
+    <div class="section-score" style="color: #d4740e;">53/100</div>
+  </div>
+
+  <h3>3.1 Điểm Lighthouse (trang chủ, di động)</h3>
+
+    <div class="chart-container">
+      <img src="file:///Users/trinhquoccong/Desktop/claude-seo/sharephong.us-audit/charts/lighthouse_gauges.png" style="width: 85%;" alt="Lighthouse gauge scores">
+      <div class="chart-caption">Hình 1: Điểm Lighthouse di động của trang chủ: Hiệu suất, Trợ năng, Best Practices và SEO.</div>
+    </div>
+
+  <table>
+    <thead>
+      <tr><th>Hạng mục</th><th>Điểm</th><th>Đánh giá</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Performance</td><td class="status-warn">53</td><td>Cần cải thiện</td></tr>
+      <tr><td>Accessibility</td><td class="status-pass">91</td><td>Tốt</td></tr>
+      <tr><td>Best Practices</td><td class="status-warn">79</td><td>Cần cải thiện</td></tr>
+      <tr><td>SEO</td><td class="status-pass">100</td><td>Tốt</td></tr>
+    </tbody>
+  </table>
+
+  <hr class="divider">
+  <h3>3.2 Chỉ số lab (mô phỏng, trang chủ)</h3>
+  <table>
+    <thead>
+      <tr><th>Chỉ số</th><th>Giá trị</th><th>Điểm</th><th>Ngưỡng tốt</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>First Contentful Paint (FCP)</td><td>2.6 s</td><td class="status-warn">64%</td><td>≤ 1.8s</td></tr>
+      <tr><td>Largest Contentful Paint (LCP)</td><td>4.7 s</td><td class="status-fail">32%</td><td>≤ 2.5s</td></tr>
+      <tr><td>Total Blocking Time (TBT)</td><td>650 ms</td><td class="status-fail">46%</td><td>≤ 200ms</td></tr>
+      <tr><td>Cumulative Layout Shift (CLS)</td><td>0.053</td><td class="status-pass">98%</td><td>≤ 0.1</td></tr>
+      <tr><td>Speed Index</td><td>12.4 s</td><td class="status-fail">3%</td><td>≤ 3.4s</td></tr>
+      <tr><td>Time to Interactive (TTI)</td><td>16.0 s</td><td class="status-fail">6%</td><td>≤ 3.8s</td></tr>
+    </tbody>
+  </table>
+  <hr class="divider">
+  <h3>3.3 So sánh 3 loại trang (Lighthouse di động)</h3>
+  <table>
+    <thead><tr><th>Trang</th><th>Hiệu suất</th><th>LCP</th><th>TBT</th><th>CLS</th><th>TTFB</th></tr></thead>
+    <tbody>
+      <tr><td>Trang chủ /</td><td class="status-warn">53</td><td>4.7 s</td><td>650 ms</td><td>0.053</td><td>410 ms</td></tr>
+      <tr><td>Tìm kiếm /search/san-jose/</td><td class="status-fail">38</td><td>18.0 s</td><td>760 ms</td><td>0</td><td>790 ms</td></tr>
+      <tr><td>Tin đăng /properties/fort-worth-tx-76179/</td><td class="status-fail">40</td><td>9.8 s</td><td>610 ms</td><td>0</td><td>4,960 ms</td></tr>
+    </tbody>
+  </table>
+  <p>Ghi chú: số liệu lab (mô phỏng Moto G Power, mạng 4G chậm) đo bằng Lighthouse 12 ngày 25/09/2026. Chưa có dữ liệu thực tế từ người dùng (CrUX) vì site chưa đủ lưu lượng hoặc chưa kết nối API Google.</p>
+
+
+</div>
+
+<!-- ======================================================= 4. ACTION PLAN === -->
+<div class="section">
+  <div class="section-header">
+    <h2>4. Kế hoạch khắc phục</h2>
+  </div>
+
+  <div class="roadmap-phase">
+    <h4>Giai đoạn 1: Sửa lỗi nghiêm trọng <span class="effort">Tuần 1</span></h4>
+    <ul>
+      <li>Sửa sitemap: URL có “/” cuối, thêm lastmod, bỏ priority/changefreq; khai báo Sitemap trong robots.txt; gửi lại trên Google Search Console (≈2 giờ dev)</li>
+      <li>Sửa hreflang trang tin đăng (/city/ → /properties/) + thêm x-default + canonical/hreflang cho trang chủ (≈2 giờ)</li>
+      <li>Trả 404 thật cho tin/thành phố không tồn tại; 410 hoặc noindex cho tin hết hạn (≈4 giờ)</li>
+      <li>Bỏ user-scalable=no; bỏ H1 trùng và og:url trùng (≈1 giờ)</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Giai đoạn 2: Cải thiện tác động cao <span class="effort">Tuần 2–3</span></h4>
+    <ul>
+      <li>Chuyển danh sách tin ở /search/, /city/ và trang chủ sang SSR/ISR với liên kết &lt;a href&gt; (≈3–5 ngày)</li>
+      <li>Bật HTTP/2, cache CDN cho HTML công khai, tối ưu API để TTFB &lt; 800 ms (≈2 ngày)</li>
+      <li>Noindex và loại khỏi sitemap các facet có dưới 3 tin (≈1 ngày)</li>
+      <li>Xoá text &lt;title&gt; trong sprite SVG Orion (≈2 giờ)</li>
+      <li>Template title/meta description mới cho tin đăng (≈4 giờ)</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Giai đoạn 3: Nội dung &amp; uy tín <span class="effort">Tháng 2</span></h4>
+    <ul>
+      <li>Triển khai JSON-LD: Organization, WebSite, BreadcrumbList, Accommodation + Offer, ItemList, FAQPage</li>
+      <li>Tạo trang Giới thiệu, Liên hệ, Điều khoản, Hướng dẫn tránh lừa đảo; thêm llms.txt</li>
+      <li>Viết nội dung riêng cho trang chủ và 20 trang thành phố quan trọng nhất; liên kết trang chủ → /city/</li>
+      <li>Tối ưu ảnh (WebP/AVIF, srcset, alt mô tả), giảm JS thừa, trì hoãn script bên thứ ba</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Giai đoạn 4: Theo dõi &amp; lặp lại <span class="effort">Liên tục</span></h4>
+    <ul>
+      <li>Kết nối Google Search Console và GA4; theo dõi báo cáo Trang (Index coverage) và Core Web Vitals hằng tuần</li>
+      <li>Chạy lại audit sau 30 ngày để so sánh điểm sức khoẻ SEO</li>
+      <li>Theo dõi thứ hạng các từ khoá “thuê phòng/share phòng + thành phố” và lượt hiển thị trong AI search</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ======================================================= DATA SOURCES & METHODOLOGY === -->
+<div class="section" style="text-align: center; padding-top: 15mm;">
+  <hr class="divider">
+  <h3 style="text-align: left;">5. Nguồn dữ liệu &amp; Phương pháp</h3>
+  <table>
+    <thead><tr><th>Nguồn</th><th>Nội dung</th><th>Phạm vi</th></tr></thead>
+    <tbody>
+      <tr><td>sitemap.xml &amp; robots.txt</td><td>Phân tích cấu trúc URL, mã trạng thái, lastmod</td><td>1.198 URL</td></tr>
+      <tr><td>Crawl HTML (máy chủ)</td><td>Title, meta, canonical, hreflang, H1, schema, alt, số từ, mã HTTP</td><td>309 URL mẫu theo từng loại trang</td></tr>
+      <tr><td>Chrome headless (render JS)</td><td>So sánh HTML gốc với nội dung sau render, đếm tin trên trang tìm kiếm/facet</td><td>17 trang</td></tr>
+      <tr><td>Lighthouse 12 (di động)</td><td>Hiệu suất, trợ năng, best practices, SEO</td><td>3 loại trang</td></tr>
+    </tbody>
+  </table>
+  <p style="text-align:left;">Điểm sức khoẻ SEO là trung bình có trọng số: Kỹ thuật 22%, Nội dung 23%, On-page 20%, Schema 10%, Hiệu suất 10%, AI Search 10%, Hình ảnh 5%. Báo cáo chưa bao gồm dữ liệu Google Search Console, GA4 và backlink vì chưa được cấp quyền truy cập. Khi có quyền, nên bổ sung để đo số trang đã index và lưu lượng thực tế.</p>
+  <p style="color: #94a3b8; font-size: 9pt; margin-top: 5mm;">Báo cáo được tạo bởi Claude SEO &mdash; 25/09/2026</p>
+</div>
+
+</body>
+</html>

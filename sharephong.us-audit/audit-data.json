@@ -1,0 +1,353 @@
+{
+ "summary": {
+  "health_score": 43,
+  "business_type": "Marketplace rao vặt cho thuê phòng/nhà (cộng đồng người Việt tại Mỹ), song ngữ Việt/Anh, Next.js",
+  "top_findings": [
+   {
+    "title": "576/1.198 URL trong sitemap (48%) là URL sai: toàn bộ trang tin đăng /properties/ đều bị chuyển hướng 308 sang bản có dấu “/”",
+    "severity": "Critical"
+   },
+   {
+    "title": "Danh sách tin đăng trên trang tìm kiếm và trang chủ chỉ tải bằng JavaScript: HTML gốc không có tin nào, và phải chờ hơn 20 giây mới hiện",
+    "severity": "Critical"
+   },
+   {
+    "title": "Hreflang trên 100% trang tin đăng (70/70 mẫu) trỏ tới /city/... và trả về lỗi 404",
+    "severity": "Critical"
+   },
+   {
+    "title": "Lỗi soft 404: URL tin đăng hoặc thành phố không tồn tại vẫn trả mã 200",
+    "severity": "High"
+   },
+   {
+    "title": "Không có dữ liệu có cấu trúc (JSON-LD) ở bất kỳ trang nào; hiệu suất di động chỉ đạt 38–53/100",
+    "severity": "High"
+   }
+  ],
+  "quick_wins": [
+   "Sửa sitemap để xuất URL có dấu “/”, thêm <lastmod>, và khai báo “Sitemap:” trong robots.txt",
+   "Sửa đường dẫn hreflang của trang tin đăng: /city/ → /properties/, và thêm x-default",
+   "Trả mã 404 thật (notFound: true) cho tin đăng hoặc thành phố không tồn tại",
+   "Bỏ user-scalable=no và maximum-scale=1 khỏi thẻ viewport",
+   "Bỏ thẻ H1 thứ hai bị trùng trên trang tìm kiếm, và bỏ og:url trùng lặp"
+  ]
+ },
+ "categories": [
+  {
+   "name": "SEO kỹ thuật (Technical SEO)",
+   "score": 40,
+   "what_works": [
+    "HTTPS hoạt động; http:// chuyển hướng 1 bước về https://",
+    "Trang tìm kiếm, thành phố và tin đăng đều có canonical tự tham chiếu",
+    "URL có tham số lọc (?beds=2…) canonical về trang gốc; trang /auth/ có noindex",
+    "Trang /city/ không tồn tại trả mã 404 chuẩn",
+    "Nén gzip được bật; file tĩnh /_next/static được cache 1 năm (immutable)"
+   ],
+   "findings": [
+    {
+     "title": "48% sitemap là URL chuyển hướng (308)",
+     "severity": "Critical",
+     "description": "Toàn bộ 576 URL /properties/ và /en/properties/ trong sitemap.xml không có dấu “/” ở cuối. Kiểm tra 74/74 mẫu đều trả 308 Permanent Redirect sang bản có “/”. Google xem đây là tín hiệu sitemap kém chất lượng và lãng phí ngân sách crawl.",
+     "recommendation": "Sinh URL trong sitemap đúng theo bản canonical (có “/” cuối, vì Next.js đang đặt trailingSlash: true). Sau đó gửi lại sitemap trong Google Search Console."
+    },
+    {
+     "title": "Tin đăng chỉ render bằng JavaScript (CSR)",
+     "severity": "Critical",
+     "description": "HTML máy chủ trả về cho /search/san-jose/ có 0 liên kết tới tin đăng; __NEXT_DATA__ chỉ chứa toạ độ thành phố. Chỉ sau khi chạy JS mới hiện 30 tin, và nhiều lần phải chờ hơn 20 giây. Trang chủ cũng vậy: 0 tin trong HTML, 50 tin sau render. Bing, ChatGPT/GPTBot, Perplexity, ClaudeBot không chạy JS nên thấy trang trống. Googlebot phải xếp hàng render nên phát hiện tin mới rất chậm.",
+     "recommendation": "Chuyển trang /search/*, /city/* và trang chủ sang getServerSideProps (hoặc ISR với revalidate 300–600 giây) để trả danh sách tin (tiêu đề, giá, địa chỉ, link <a href>) ngay trong HTML."
+    },
+    {
+     "title": "Hreflang trang tin đăng trỏ tới URL 404",
+     "severity": "Critical",
+     "description": "Trên 70/70 trang tin đăng kiểm tra, hreflang vi/en trỏ tới https://sharephong.us/city/<slug>/ và /en/city/<slug>/, cả hai đều trả 404. Bản tiếng Anh thật nằm ở /en/properties/<slug>/. Google sẽ bỏ qua toàn bộ hreflang của gần 600 trang, và cặp Việt–Anh bị coi là nội dung trùng lặp.",
+     "recommendation": "Sửa component tạo hreflang cho route properties: dùng /properties/ và /en/properties/. Thêm hreflang=\"x-default\" cho mọi trang, và thêm canonical + hreflang cho trang chủ (/ và /en/)."
+    },
+    {
+     "title": "Soft 404 (trang lỗi trả mã 200)",
+     "severity": "High",
+     "description": "/properties/does-not-exist-xyz/ trả 200 với nội dung “Oops, that page is not here… Error 404”. /search/not-a-city-xyz/ trả 200 với tiêu đề “Cho Thuê Nhà - Thuê Phòng ở , ”. Google sẽ index các trang rỗng này, và tin đã xoá hoặc hết hạn cũng sẽ không bao giờ bị loại khỏi chỉ mục.",
+     "recommendation": "Trong getServerSideProps/getStaticProps, trả { notFound: true } khi không tìm thấy tin hoặc thành phố. Tin đã cho thuê xong thì trả 410, hoặc 301 về trang tìm kiếm của thành phố đó."
+    },
+    {
+     "title": "Máy chủ phản hồi chậm (TTFB cao)",
+     "severity": "High",
+     "description": "Thời gian phản hồi trung bình của 238 URL crawl là 5,6 giây (p90: 14,3 giây, tối đa: 24 giây). Lighthouse đo TTFB của trang tin đăng là 4,96 giây. Riêng sitemap.xml mất 14,7 giây. Header Cache-Control: private, no-store tắt mọi cache. Máy chủ còn chạy HTTP/1.1, chưa có HTTP/2.",
+     "recommendation": "Bật HTTP/2 (hoặc HTTP/3) trên nginx. Dùng ISR hoặc cache ở CDN (Cloudflare/Vercel) với s-maxage và stale-while-revalidate cho trang công khai. Cache sitemap.xml tĩnh, sinh lại mỗi giờ. Tối ưu truy vấn cơ sở dữ liệu/API cho trang tin đăng."
+    },
+    {
+     "title": "Sitemap thiếu lastmod và bị lạm dụng priority",
+     "severity": "Medium",
+     "description": "1.198 URL đều có priority 1.0 và changefreq daily, không URL nào có <lastmod>. Google bỏ qua priority/changefreq, còn lastmod là tín hiệu duy nhất giúp crawl lại tin mới.",
+     "recommendation": "Thêm <lastmod> (ngày cập nhật tin), bỏ priority và changefreq. Tách thành sitemap index: sitemap-properties.xml, sitemap-locations.xml, sitemap-en.xml."
+    },
+    {
+     "title": "Hơn 560 trang lọc (facet) mỏng hoặc rỗng nằm trong sitemap",
+     "severity": "High",
+     "description": "Sitemap chứa 270 URL facet tiếng Việt và 270 tiếng Anh dạng /search/<city>/<loại-nhà>/<lối-đi-riêng>/. Trong 12 trang facet kiểm tra (sau khi render JS), 8 trang có 0 kết quả, ví dụ garland/garage-conversion/private-entrance, bay-area/apartment, louisville-ky/mobile-home. Kiểu thin content hàng loạt này có thể kéo chất lượng toàn site xuống.",
+     "recommendation": "Chỉ đưa facet có từ 3 tin trở lên vào sitemap. Facet có 0 tin thì gắn noindex,follow (hoặc trả 404 nếu tổ hợp không hợp lệ). Mỗi facet được giữ lại cần tiêu đề/H1 và đoạn giới thiệu riêng."
+    },
+    {
+     "title": "robots.txt thiếu nhóm mặc định và khai báo Sitemap",
+     "severity": "Medium",
+     "description": "robots.txt chỉ có nhóm Twitterbot/Googlebot/Bingbot/facebookexternalhit (đều Allow: /). Không có nhóm “User-agent: *”, không có dòng Sitemap:, và không chặn /auth/ hay /properties/add/.",
+     "recommendation": "Thêm nhóm User-agent: * với Disallow: /auth/, /properties/add/, /api/ (trừ /api/images/). Thêm dòng Sitemap: https://sharephong.us/sitemap.xml."
+    },
+    {
+     "title": "Thiếu header bảo mật; www không phân giải DNS",
+     "severity": "Low",
+     "description": "Không có Strict-Transport-Security, X-Content-Type-Options, Referrer-Policy hay Content-Security-Policy. www.sharephong.us không có bản ghi DNS, nên người dùng gõ www sẽ gặp lỗi.",
+     "recommendation": "Thêm các header này trong nginx hoặc next.config.js. Tạo bản ghi DNS cho www và 301 về https://sharephong.us."
+    }
+   ]
+  },
+  {
+   "name": "Chất lượng nội dung (Content & E-E-A-T)",
+   "score": 50,
+   "what_works": [
+    "Trang /city/ có nội dung riêng khá tốt (khoảng 550 từ, có mục Câu hỏi thường gặp và liên kết tới danh mục)",
+    "Tin đăng có nội dung thật do người dùng viết: giá, tiền cọc, số phòng, tiện ích, mô tả",
+    "Có phiên bản tiếng Anh cho mọi loại trang"
+   ],
+   "findings": [
+    {
+     "title": "Trang tìm kiếm chứa khoảng 1.900 “từ” rác từ icon SVG",
+     "severity": "High",
+     "description": "HTML của trang /search/* chứa 193 lần chuỗi “A line styled icon from Orion Icon Library” (thẻ <title> trong sprite SVG). Đây là gần như toàn bộ văn bản Google đọc được trên trang, trong khi nội dung thật (tin đăng) lại không có.",
+     "recommendation": "Xoá thẻ <title> trong sprite SVG, hoặc đặt aria-hidden và chỉ nạp các icon thực sự dùng. Thêm đoạn giới thiệu 80–150 từ riêng cho từng thành phố trên trang tìm kiếm."
+    },
+    {
+     "title": "Trang chủ nội dung mỏng",
+     "severity": "Medium",
+     "description": "Trang chủ chỉ có 134 từ, H1 “Tìm và đăng nhà miễn phí” và 12 liên kết thành phố. Không liên kết tới các trang /city/ (trang có nội dung tốt nhất), chỉ liên kết /search/.",
+     "recommendation": "Bổ sung khối giới thiệu dịch vụ, số liệu (số tin, số thành phố), tin mới nhất ở dạng SSR và liên kết tới /city/ và /state/. Viết lại H1 chứa từ khoá “thuê phòng, share phòng cho người Việt tại Mỹ”."
+    },
+    {
+     "title": "Thiếu tín hiệu E-E-A-T/tin cậy",
+     "severity": "Medium",
+     "description": "/about/ trả 404. Không có trang Giới thiệu, Liên hệ, Chính sách, Điều khoản hay Hướng dẫn an toàn khi thuê nhà. Chỉ có email và liên kết Facebook ở footer. Footer vẫn ghi “© 2025”.",
+     "recommendation": "Tạo trang Giới thiệu (đội ngũ, sứ mệnh), Liên hệ, Điều khoản/Quyền riêng tư và Mẹo tránh lừa đảo khi thuê nhà. Tự động cập nhật năm trong footer."
+    },
+    {
+     "title": "Tin đăng cũ không được xử lý",
+     "severity": "Medium",
+     "description": "Trang tin mẫu /properties/fort-worth-tx-76179/ hiển thị “Ngày đăng: 8 tháng trước” nhưng vẫn index được và có trong sitemap. Tin hết hạn làm trải nghiệm tệ và giảm chất lượng tổng thể.",
+     "recommendation": "Đặt thời hạn cho tin (ví dụ 60–90 ngày). Khi hết hạn thì gắn noindex, hiển thị “Đã cho thuê” kèm tin tương tự, và loại khỏi sitemap. Sau 6 tháng thì trả 410."
+    }
+   ]
+  },
+  {
+   "name": "SEO On-page",
+   "score": 55,
+   "what_works": [
+    "Title và meta description là duy nhất trên các trang tìm kiếm, thành phố và bang",
+    "Thuộc tính lang đúng (vi / en) theo từng phiên bản",
+    "Trang thành phố có một H1 duy nhất, chứa từ khoá và địa danh"
+   ],
+   "findings": [
+    {
+     "title": "Trang tìm kiếm có 2 thẻ H1 giống hệt nhau",
+     "severity": "Medium",
+     "description": "Cả 121/121 trang /search/ kiểm tra đều có 2 H1 “Phòng và nhà cho thuê tại San Jose, CA, USA” (một cho mobile, một cho desktop).",
+     "recommendation": "Chỉ giữ một H1. Khối còn lại đổi thành <p> hoặc <div> có class h3, hoặc dùng CSS responsive cho cùng một thẻ."
+    },
+    {
+     "title": "Meta description tin đăng lấy nguyên văn mô tả người dùng",
+     "severity": "Medium",
+     "description": "Description của tin là nguyên đoạn mô tả người dùng: có xuống dòng, emoji, số điện thoại, dài hàng trăm ký tự. Ví dụ “Mình có ba phòng available… liên lạc: Chuong 832-788-7380…”. Một số tin hiển thị “$0/month $0 deposit”.",
+     "recommendation": "Dùng template: “{Loại phòng} cho thuê tại {Thành phố}, {Bang} – ${giá}/tháng, {n} phòng ngủ, {tiện ích nổi bật}. Xem ảnh & liên hệ chủ nhà trên SharePhong.” Giới hạn khoảng 155 ký tự, bỏ số điện thoại và emoji. Ẩn giá khi bằng 0."
+    },
+    {
+     "title": "Title tin đăng chung chung và bị trùng",
+     "severity": "Medium",
+     "description": "Title bắt đầu bằng “Cho Thuê Nhà - Thuê Phòng ở …” hoặc “House for rent - Rooms for rent in …”, thường có hai dấu cách liền nhau. Tin chỉ có thành phố + ZIP bị trùng title (3/71 mẫu, ví dụ “… Garden Grove CA 92843”).",
+     "recommendation": "Template: “{Loại phòng} ${giá}/tháng – {Khu vực}, {Thành phố} {Bang} | SharePhong”. Chuẩn hoá khoảng trắng và thêm mã tin nếu vẫn trùng."
+    },
+    {
+     "title": "Thẻ Open Graph lỗi",
+     "severity": "Low",
+     "description": "Trang tìm kiếm có 2 thẻ og:url (một trỏ về trang chủ). og:url trang chủ thiếu “/”. 38% tin đăng mẫu (27/71) và mọi trang danh mục dùng ảnh placeholder detailPropertyImagePlaceholder.jpeg làm og:image.",
+     "recommendation": "Mỗi trang chỉ một og:url trùng canonical. Dùng ảnh đầu tiên của tin làm og:image. Thiết kế ảnh OG riêng cho trang thành phố và trang chủ (1200×630)."
+    }
+   ]
+  },
+  {
+   "name": "Dữ liệu có cấu trúc (Schema)",
+   "score": 10,
+   "what_works": [
+    "Không có schema lỗi (vì chưa có schema nào)"
+   ],
+   "findings": [
+    {
+     "title": "Không có bất kỳ JSON-LD nào trên toàn site",
+     "severity": "High",
+     "description": "Đã kiểm tra hơn 230 trang: 0 khối application/ld+json. Site bỏ lỡ tín hiệu thực thể (Organization/WebSite), breadcrumb trên SERP và dữ liệu để AI hiểu tin đăng.",
+     "recommendation": "Trang chủ: Organization (name, logo, sameAs Facebook) + WebSite. Mọi trang: BreadcrumbList (Trang chủ › Bang › Thành phố › Tin). Trang tin: Accommodation/SingleFamilyResidence/Apartment kèm address (PostalAddress), numberOfRooms, floorSize, amenityFeature, và Offer (price, priceCurrency USD, availability). Trang tìm kiếm/thành phố: ItemList các tin. Kiểm tra bằng Rich Results Test."
+    },
+    {
+     "title": "Mục FAQ trên trang thành phố chưa có schema",
+     "severity": "Low",
+     "description": "Trang /city/* có 5 câu hỏi thường gặp nhưng không có FAQPage markup. Google hiện hạn chế hiển thị rich result FAQ, nhưng markup vẫn giúp AI search trích dẫn.",
+     "recommendation": "Thêm FAQPage JSON-LD khớp nguyên văn nội dung hiển thị."
+    }
+   ]
+  },
+  {
+   "name": "Hiệu suất (Core Web Vitals)",
+   "score": 35,
+   "what_works": [
+    "CLS tốt (0–0,053)",
+    "Tài nguyên tĩnh của Next.js được cache lâu dài"
+   ],
+   "findings": [
+    {
+     "title": "LCP di động rất chậm",
+     "severity": "High",
+     "description": "Lighthouse di động (lab): trang chủ LCP 4,7 giây, điểm hiệu suất 53. Trang tìm kiếm LCP 18,0 giây, điểm 38. Trang tin đăng LCP 9,8 giây, điểm 40, TTFB 4,96 giây. Ngưỡng tốt là ≤2,5 giây.",
+     "recommendation": "Render tin trên máy chủ, preload ảnh LCP (next/image priority), dùng preconnect tới domain ảnh, và cache HTML ở CDN."
+    },
+    {
+     "title": "JavaScript thừa khoảng 1 MB, TBT 610–760 ms",
+     "severity": "High",
+     "description": "Lighthouse ước tính giảm được 811–1.039 KiB JS không dùng trên mỗi trang. Main-thread 3,2–6,0 giây. Bundle i18n toàn bộ được nhúng vào __NEXT_DATA__. Mã bên thứ ba (AdSense, Facebook) chặn thêm khoảng 300 ms.",
+     "recommendation": "Tách code theo route (dynamic import cho bản đồ, form đăng tin, modal). Chỉ nạp namespace i18n cần cho trang. Trì hoãn AdSense/Facebook SDK (next/script strategy=lazyOnload). Bỏ polyfill legacy."
+    },
+    {
+     "title": "Ảnh chưa tối ưu",
+     "severity": "Medium",
+     "description": "Trang tin đăng có thể tiết kiệm 360 KiB nếu dùng WebP/AVIF, 126 KiB nếu nén lại, 60 KiB nếu đúng kích thước. Ảnh phục vụ qua /api/images/<hash> không qua bộ tối ưu next/image.",
+     "recommendation": "Chuyển ảnh sang WebP/AVIF khi upload, tạo nhiều kích thước (srcset) và phục vụ qua CDN có cache dài hạn."
+    }
+   ]
+  },
+  {
+   "name": "Sẵn sàng cho AI Search (GEO)",
+   "score": 35,
+   "what_works": [
+    "robots.txt không chặn crawler AI",
+    "Trang thành phố có định dạng hỏi–đáp, dễ trích dẫn"
+   ],
+   "findings": [
+    {
+     "title": "Crawler AI không thấy tin đăng",
+     "severity": "High",
+     "description": "GPTBot, PerplexityBot, ClaudeBot và Google-Extended không chạy JavaScript. Với họ, trang chủ và trang tìm kiếm không có tin nào, chỉ có text icon. Vì vậy ChatGPT/Perplexity sẽ không gợi ý SharePhong khi người dùng hỏi “thuê phòng người Việt ở San Jose”.",
+     "recommendation": "Ưu tiên sửa SSR (xem mục SEO kỹ thuật). Thêm llms.txt (hiện trả 404) mô tả site, các thành phố chính và link tới trang /city/."
+    },
+    {
+     "title": "Thiếu tín hiệu thực thể thương hiệu",
+     "severity": "Medium",
+     "description": "Không có schema Organization, sameAs hay trang Giới thiệu. Tên thương hiệu không nhất quán: “Share phòng US”, “SharePhong US”, “sharephong.us”.",
+     "recommendation": "Chuẩn hoá một tên thương hiệu. Thêm Organization + sameAs (Facebook page, group). Xây dựng đề cập thương hiệu trên các diễn đàn/báo cộng đồng người Việt."
+    }
+   ]
+  },
+  {
+   "name": "Hình ảnh",
+   "score": 55,
+   "what_works": [
+    "100% thẻ <img> có thuộc tính alt",
+    "Ảnh card dùng lazy-loading"
+   ],
+   "findings": [
+    {
+     "title": "Alt text chung chung",
+     "severity": "Low",
+     "description": "Ảnh tin đăng dùng alt=\"Card image\", logo dùng alt=\"Directory logo\". Không mô tả nội dung, nên bỏ lỡ cơ hội xuất hiện trên Google Images.",
+     "recommendation": "alt = “{Loại phòng} cho thuê tại {địa chỉ/thành phố} – ảnh {n}”, logo = “SharePhong US”."
+    },
+    {
+     "title": "Viewport chặn phóng to",
+     "severity": "Medium",
+     "description": "<meta name=viewport … maximum-scale=1, user-scalable=no> ngăn người dùng zoom ảnh và chữ. Đây là lỗi trợ năng (Lighthouse Accessibility), kèm lỗi độ tương phản màu.",
+     "recommendation": "Đổi thành content=\"width=device-width, initial-scale=1\". Tăng độ tương phản của chữ xám nhạt."
+    }
+   ]
+  }
+ ],
+ "psi": {
+  "psi": {
+   "mobile": {
+    "lighthouse_scores": {
+     "performance": 53,
+     "accessibility": 91,
+     "best-practices": 79,
+     "seo": 100
+    },
+    "lab_metrics": {
+     "first-contentful-paint": {
+      "display": "2.6 s",
+      "score": 0.64
+     },
+     "largest-contentful-paint": {
+      "display": "4.7 s",
+      "score": 0.32
+     },
+     "total-blocking-time": {
+      "display": "650 ms",
+      "score": 0.46
+     },
+     "cumulative-layout-shift": {
+      "display": "0.053",
+      "score": 0.98
+     },
+     "speed-index": {
+      "display": "12.4 s",
+      "score": 0.03
+     },
+     "interactive": {
+      "display": "16.0 s",
+      "score": 0.06
+     }
+    }
+   }
+  }
+ },
+ "action_plan": {
+  "phases": [
+   {
+    "name": "Giai đoạn 1: Sửa lỗi nghiêm trọng",
+    "timeframe": "Tuần 1",
+    "items": [
+     "Sửa sitemap: URL có “/” cuối, thêm lastmod, bỏ priority/changefreq; khai báo Sitemap trong robots.txt; gửi lại trên Google Search Console (≈2 giờ dev)",
+     "Sửa hreflang trang tin đăng (/city/ → /properties/) + thêm x-default + canonical/hreflang cho trang chủ (≈2 giờ)",
+     "Trả 404 thật cho tin/thành phố không tồn tại; 410 hoặc noindex cho tin hết hạn (≈4 giờ)",
+     "Bỏ user-scalable=no; bỏ H1 trùng và og:url trùng (≈1 giờ)"
+    ]
+   },
+   {
+    "name": "Giai đoạn 2: Cải thiện tác động cao",
+    "timeframe": "Tuần 2–3",
+    "items": [
+     "Chuyển danh sách tin ở /search/, /city/ và trang chủ sang SSR/ISR với liên kết <a href> (≈3–5 ngày)",
+     "Bật HTTP/2, cache CDN cho HTML công khai, tối ưu API để TTFB < 800 ms (≈2 ngày)",
+     "Noindex và loại khỏi sitemap các facet có dưới 3 tin (≈1 ngày)",
+     "Xoá text <title> trong sprite SVG Orion (≈2 giờ)",
+     "Template title/meta description mới cho tin đăng (≈4 giờ)"
+    ]
+   },
+   {
+    "name": "Giai đoạn 3: Nội dung & uy tín",
+    "timeframe": "Tháng 2",
+    "items": [
+     "Triển khai JSON-LD: Organization, WebSite, BreadcrumbList, Accommodation + Offer, ItemList, FAQPage",
+     "Tạo trang Giới thiệu, Liên hệ, Điều khoản, Hướng dẫn tránh lừa đảo; thêm llms.txt",
+     "Viết nội dung riêng cho trang chủ và 20 trang thành phố quan trọng nhất; liên kết trang chủ → /city/",
+     "Tối ưu ảnh (WebP/AVIF, srcset, alt mô tả), giảm JS thừa, trì hoãn script bên thứ ba"
+    ]
+   },
+   {
+    "name": "Giai đoạn 4: Theo dõi & lặp lại",
+    "timeframe": "Liên tục",
+    "items": [
+     "Kết nối Google Search Console và GA4; theo dõi báo cáo Trang (Index coverage) và Core Web Vitals hằng tuần",
+     "Chạy lại audit sau 30 ngày để so sánh điểm sức khoẻ SEO",
+     "Theo dõi thứ hạng các từ khoá “thuê phòng/share phòng + thành phố” và lượt hiển thị trong AI search"
+    ]
+   }
+  ]
+ },
+ "artifacts": {
+  "findings_dir": "findings/",
+  "screenshots_dir": "screenshots/"
+ }
+}

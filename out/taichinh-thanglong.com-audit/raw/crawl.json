@@ -1,0 +1,6033 @@
+[
+ {
+  "url": "https://taichinh-thanglong.com/author/admin-taichinh-thanglong/",
+  "code": 200,
+  "loc": null,
+  "t": 2.19,
+  "size": 133007,
+  "title": "admin.taichinh-thanglong, Tác giả tại TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/author/admin-taichinh-thanglong/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Author Archives: admin.taichinh-thanglong"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "ProfilePage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 586,
+  "imgs": 13,
+  "noalt": 8,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/elements-overview/",
+  "code": 200,
+  "loc": null,
+  "t": 1.77,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/blog-header/",
+  "code": 200,
+  "loc": null,
+  "t": 1.29,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/shop-header/",
+  "code": 200,
+  "loc": null,
+  "t": 1.75,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/shop-category-slider/",
+  "code": 200,
+  "loc": null,
+  "t": 1.58,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/footer-newsletter-signup/",
+  "code": 200,
+  "loc": null,
+  "t": 1.68,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/demos/",
+  "code": 200,
+  "loc": null,
+  "t": 1.69,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/features-overview/",
+  "code": 200,
+  "loc": null,
+  "t": 1.41,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blocks/footer-about-us/",
+  "code": 200,
+  "loc": null,
+  "t": 1.35,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/category/tin-tuc/ban-tin-ttc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.35,
+  "size": 124365,
+  "title": "Lưu trữ Bản tin TTC - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/category/tin-tuc/ban-tin-ttc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Category Archives: Bản tin TTC"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 447,
+  "imgs": 9,
+  "noalt": 4,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/category/tin-tuc/tin-thi-truong/",
+  "code": 200,
+  "loc": null,
+  "t": 0.99,
+  "size": 124547,
+  "title": "Lưu trữ Tin thị trường - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/category/tin-tuc/tin-thi-truong/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Category Archives: Tin thị trường"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 440,
+  "imgs": 9,
+  "noalt": 4,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/category/tin-tuc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.79,
+  "size": 131574,
+  "title": "Lưu trữ Tin tức - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/category/tin-tuc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Category Archives: Tin tức"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 587,
+  "imgs": 13,
+  "noalt": 8,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/",
+  "code": 200,
+  "loc": null,
+  "t": 2.15,
+  "size": 146184,
+  "title": "Trang chủ - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 8,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 1210,
+  "imgs": 19,
+  "noalt": 14,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/tuyen-dung-lao-dong/",
+  "code": 200,
+  "loc": null,
+  "t": 2.17,
+  "size": 133214,
+  "title": "Tuyển dụng lao động - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/tuyen-dung-lao-dong/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 554,
+  "imgs": 15,
+  "noalt": 10,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/dao-tao/",
+  "code": 200,
+  "loc": null,
+  "t": 2.03,
+  "size": 139798,
+  "title": "Đào tạo - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/dao-tao/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 643,
+  "imgs": 24,
+  "noalt": 19,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/thu-vien-anh/",
+  "code": 200,
+  "loc": null,
+  "t": 2.14,
+  "size": 165082,
+  "title": "Thư viện ảnh - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/thu-vien-anh/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 277,
+  "imgs": 34,
+  "noalt": 29,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/main/",
+  "code": 200,
+  "loc": null,
+  "t": 1.68,
+  "size": 118134,
+  "title": "Main - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/main/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 312,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/cmtc-du-hoc/",
+  "code": 200,
+  "loc": null,
+  "t": 2.03,
+  "size": 118129,
+  "title": "CMTC du học - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/cmtc-du-hoc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 314,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/cmtc-du-lich/",
+  "code": 200,
+  "loc": null,
+  "t": 1.8,
+  "size": 118144,
+  "title": "CMTC du lịch - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/cmtc-du-lich/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 314,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/gioi-thieu/",
+  "code": 200,
+  "loc": null,
+  "t": 1.72,
+  "size": 123717,
+  "title": "Giới thiệu - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/gioi-thieu/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "GIỚI THIỆU CMTC KHOA LÊ"
+  ],
+  "h2n": 6,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 1405,
+  "imgs": 6,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/shop/",
+  "code": 200,
+  "loc": null,
+  "t": 1.7,
+  "size": 155977,
+  "title": "Shop - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/shop/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 415,
+  "imgs": 29,
+  "noalt": 12,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/checkout/",
+  "code": 302,
+  "loc": null,
+  "t": 1.07,
+  "size": 0,
+  "title": "",
+  "desc": null,
+  "canonical": [],
+  "robots": [],
+  "h1": [],
+  "h2n": 0,
+  "jsonld_types": [],
+  "words": 0,
+  "imgs": 0,
+  "noalt": 0,
+  "http_links": 0,
+  "og": false,
+  "lang": null
+ },
+ {
+  "url": "https://taichinh-thanglong.com/my-account/",
+  "code": 200,
+  "loc": null,
+  "t": 1.7,
+  "size": 112775,
+  "title": "My account - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/my-account/"
+  ],
+  "robots": [
+   "noindex, follow"
+  ],
+  "h1": [
+   "My account"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 199,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/tin-tuc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.87,
+  "size": 128781,
+  "title": "Tin tức - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/tin-tuc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 542,
+  "imgs": 13,
+  "noalt": 8,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-my/",
+  "code": 200,
+  "loc": null,
+  "t": 1.88,
+  "size": 141413,
+  "title": "Chứng minh tài chính du học Mỹ - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-my/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 13,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2444,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/gioi-thieu-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.82,
+  "size": 124494,
+  "title": "Giới thiệu - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/gioi-thieu-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "GIỚI THIỆU CÔNG TY DỊCH VỤ TÀI CHÍNH THĂNG LONG"
+  ],
+  "h2n": 6,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 1456,
+  "imgs": 6,
+  "noalt": 1,
+  "http_links": 2,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-canada/",
+  "code": 200,
+  "loc": null,
+  "t": 1.76,
+  "size": 144758,
+  "title": "Chứng minh tài chính du học Canada - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-canada/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 11,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2450,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/lien-he/",
+  "code": 200,
+  "loc": null,
+  "t": 1.55,
+  "size": 117699,
+  "title": "Liên hệ - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/lien-he/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Liên hệ"
+  ],
+  "h2n": 2,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 274,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-lich-dai-loan-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.66,
+  "size": 130768,
+  "title": "Chứng minh tài chính du lịch Đài Loan - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-lich-dai-loan-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 9,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 1328,
+  "imgs": 6,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-lich-uc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.9,
+  "size": 129037,
+  "title": "Chứng minh tài chính du lịch Úc - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/chung-minh-tai-chinh-du-lich-uc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 6,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 1063,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-nang-luc-tai-chinh-nha-dau-tu/",
+  "code": 200,
+  "loc": null,
+  "t": 1.54,
+  "size": 140814,
+  "title": "Chứng minh năng lực tài chính nhà đầu tư - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/chung-minh-nang-luc-tai-chinh-nha-dau-tu/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 3,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2278,
+  "imgs": 6,
+  "noalt": 1,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/cart/",
+  "code": 200,
+  "loc": null,
+  "t": 1.92,
+  "size": 388459,
+  "title": "Cart - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/cart/"
+  ],
+  "robots": [
+   "noindex, follow"
+  ],
+  "h1": [],
+  "h2n": 3,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 290,
+  "imgs": 9,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/dich-vu-chung-minh-tai-chinh-du-lich/",
+  "code": 200,
+  "loc": null,
+  "t": 1.76,
+  "size": 161278,
+  "title": "Dịch vụ chứng minh tài chính du lịch - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/dich-vu-chung-minh-tai-chinh-du-lich/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 11,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 4127,
+  "imgs": 8,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/xac-nhan-so-du-tai-khoan-doanh-nghiep/",
+  "code": 200,
+  "loc": null,
+  "t": 1.29,
+  "size": 145989,
+  "title": "Xác nhận số dư tài khoản doanh nghiệp - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/xac-nhan-so-du-tai-khoan-doanh-nghiep/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 8,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2884,
+  "imgs": 7,
+  "noalt": 2,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-lich-nhat-ban-2/",
+  "code": 200,
+  "loc": null,
+  "t": 2.17,
+  "size": 147286,
+  "title": "Chứng minh tài chính du lịch Nhật Bản - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-lich-nhat-ban-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 10,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 3259,
+  "imgs": 7,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-uc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.92,
+  "size": 144932,
+  "title": "Chứng minh tài chính du học Úc - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-uc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 10,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2550,
+  "imgs": 6,
+  "noalt": 1,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-nhat-ban/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 144568,
+  "title": "Chứng minh tài chính du học Nhật Bản - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/chung-minh-tai-chinh-du-hoc-nhat-ban/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 11,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2820,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/dich-vu-chung-minh-tai-chinh-du-hoc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.32,
+  "size": 168595,
+  "title": "Dịch vụ chứng minh tài chính du học - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/dich-vu-chung-minh-tai-chinh-du-hoc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Chứng minh tài chính du học"
+  ],
+  "h2n": 12,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 3879,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/giay-to-cmtc/",
+  "code": 200,
+  "loc": null,
+  "t": 1.68,
+  "size": 166160,
+  "title": "Giấy tờ CMTC - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/giay-to-cmtc/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 13,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 4806,
+  "imgs": 7,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/huong-dan-chung-minh-tai-chinh-du-lich/",
+  "code": 200,
+  "loc": null,
+  "t": 1.85,
+  "size": 143455,
+  "title": "Hướng dẫn chứng minh tài chính du lịch - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/huong-dan-chung-minh-tai-chinh-du-lich/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 8,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2506,
+  "imgs": 7,
+  "noalt": 2,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/doanh-nghiep/",
+  "code": 200,
+  "loc": null,
+  "t": 1.99,
+  "size": 140769,
+  "title": "Doanh nghiệp - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/doanh-nghiep/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 3,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2258,
+  "imgs": 7,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/cam-ket-cap-tin-dung/",
+  "code": 200,
+  "loc": null,
+  "t": 1.79,
+  "size": 141204,
+  "title": "Cam kết cấp tín dụng - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/cam-ket-cap-tin-dung/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Quy Định Mới Nhất Về Cam Kết Cấp Tín Dụng Đấu Thầu, Tài Trợ Dự Án 2025"
+  ],
+  "h2n": 8,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 2914,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/blog/",
+  "code": 200,
+  "loc": null,
+  "t": 1.68,
+  "size": 130401,
+  "title": "Blog - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/blog/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 584,
+  "imgs": 13,
+  "noalt": 8,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/tong-ket-nhung-thanh-tuu-da-dat-duoc-trong-quy-1-nam-2019-cua-cong-ty-xuat-khau-lao-dong-ttc-viet-nam/",
+  "code": 200,
+  "loc": null,
+  "t": 1.25,
+  "size": 132696,
+  "title": "Tổng kết những thành tựu đã đạt được trong quý 1 năm 2019 của Công ty xuất khẩu lao động TTC Việt Nam - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/tong-ket-nhung-thanh-tuu-da-dat-duoc-trong-quy-1-nam-2019-cua-cong-ty-xuat-khau-lao-dong-ttc-viet-nam/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Tổng kết những thành tựu đã đạt được trong quý 1 năm 2019 của Công ty xuất khẩu lao động TTC Việt Nam"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 566,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/ttc-viet-nam-nang-cao-chat-luong-dich-vu-cham-soc-khach-hang-thong-qua-viec-xay-dung-fanpage/",
+  "code": 200,
+  "loc": null,
+  "t": 1.95,
+  "size": 131849,
+  "title": "TTC Việt Nam nâng cao chất lượng dịch vụ chăm sóc khách hàng thông qua việc xây dựng Fanpage - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/ttc-viet-nam-nang-cao-chat-luong-dich-vu-cham-soc-khach-hang-thong-qua-viec-xay-dung-fanpage/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "TTC Việt Nam nâng cao chất lượng dịch vụ chăm sóc khách hàng thông qua việc xây dựng Fanpage"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 499,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/chu-tich-hoi-dong-thanh-pho-kita-kyushu-nhat-ban-den-tham-trung-tam-dao-tao-cua-ttc-viet-nam/",
+  "code": 200,
+  "loc": null,
+  "t": 1.97,
+  "size": 132121,
+  "title": "Chủ tịch hội đồng thành phố Kita Kyushu, Nhật Bản đến thăm Trung tâm đào tạo của TTC Việt Nam - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/chu-tich-hoi-dong-thanh-pho-kita-kyushu-nhat-ban-den-tham-trung-tam-dao-tao-cua-ttc-viet-nam/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Chủ tịch hội đồng thành phố Kita Kyushu, Nhật Bản đến thăm Trung tâm đào tạo của TTC Việt Nam"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 520,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/ttc-viet-nam-xuat-ban-giao-trinh-dao-tao-tieng-nhat-cac-nganh-nghe-cho-thuc-tap-sinh/",
+  "code": 200,
+  "loc": null,
+  "t": 2.34,
+  "size": 131572,
+  "title": "TTC Việt Nam xuất bản giáo trình đào tạo tiếng Nhật các ngành nghề cho thực tập sinh - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/ttc-viet-nam-xuat-ban-giao-trinh-dao-tao-tieng-nhat-cac-nganh-nghe-cho-thuc-tap-sinh/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "TTC Việt Nam xuất bản giáo trình đào tạo tiếng Nhật các ngành nghề cho thực tập sinh"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 507,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/lao-dong-viet-nam-truoc-canh-cua-thi-truong-xuat-khau-lao-dong-dang-mo-rong/",
+  "code": 200,
+  "loc": null,
+  "t": 1.97,
+  "size": 131251,
+  "title": "Lao động Việt Nam trước cánh cửa thị trường xuất khẩu lao động đang mở rộng - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/lao-dong-viet-nam-truoc-canh-cua-thi-truong-xuat-khau-lao-dong-dang-mo-rong/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Lao động Việt Nam trước cánh cửa thị trường xuất khẩu lao động đang mở rộng"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 484,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/xuat-khau-lao-dong-don-hang-gian-giao-tai-nhat-ban-co-vat-va-khong/",
+  "code": 200,
+  "loc": null,
+  "t": 1.71,
+  "size": 130933,
+  "title": "Xuất khẩu lao động đơn hàng giàn giáo tại Nhật Bản có vất vả không? - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/xuat-khau-lao-dong-don-hang-gian-giao-tai-nhat-ban-co-vat-va-khong/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Xuất khẩu lao động đơn hàng giàn giáo tại Nhật Bản có vất vả không?"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 514,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/bon-ly-do-xi-nghiep-nghiep-doan-nhat-ban-nen-chon-thuc-tap-sinh-viet-nam/",
+  "code": 200,
+  "loc": null,
+  "t": 1.97,
+  "size": 131381,
+  "title": "Bốn lý do xí nghiệp, nghiệp đoàn Nhật Bản nên chọn thực tập sinh Việt Nam - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/bon-ly-do-xi-nghiep-nghiep-doan-nhat-ban-nen-chon-thuc-tap-sinh-viet-nam/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Bốn lý do xí nghiệp, nghiệp đoàn Nhật Bản nên chọn thực tập sinh Việt Nam"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 556,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/xu-huong-tim-viec-lam-tai-thi-truong-nuoc-ngoai-cua-nguoi-lao-dong-viet-nam-do-anh-huong-cua-cuoc-cach-mang-cong-nghiep-4-0/",
+  "code": 200,
+  "loc": null,
+  "t": 1.8,
+  "size": 133431,
+  "title": "Xu hướng tìm việc làm tại thị trường nước ngoài của người lao động Việt Nam do ảnh hưởng của cuộc Cách mạng công nghiệp 4.0 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/xu-huong-tim-viec-lam-tai-thi-truong-nuoc-ngoai-cua-nguoi-lao-dong-viet-nam-do-anh-huong-cua-cuoc-cach-mang-cong-nghiep-4-0/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Xu hướng tìm việc làm tại thị trường nước ngoài của người lao động Việt Nam do ảnh hưởng của cuộc Cách mạng công nghiệp 4.0"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "Article",
+   "CommentAction",
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "Person",
+   "ImageObject"
+  ],
+  "words": 552,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/luxury-hotel/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 153262,
+  "title": "Luxury Hotel - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/luxury-hotel/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Luxury Hotel"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 547,
+  "imgs": 21,
+  "noalt": 11,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/patient-ninja/",
+  "code": 200,
+  "loc": null,
+  "t": 2.33,
+  "size": 144589,
+  "title": "Patient Ninja - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/patient-ninja/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Patient Ninja"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 415,
+  "imgs": 15,
+  "noalt": 8,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/happy-ninja-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.22,
+  "size": 146823,
+  "title": "Happy Ninja - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/happy-ninja-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Happy Ninja"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 411,
+  "imgs": 17,
+  "noalt": 10,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/ninja-silhouette-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.85,
+  "size": 144579,
+  "title": "Ninja Silhouette - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/ninja-silhouette-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Ninja Silhouette"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 411,
+  "imgs": 15,
+  "noalt": 8,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/ship-your-idea-3/",
+  "code": 200,
+  "loc": null,
+  "t": 1.88,
+  "size": 149894,
+  "title": "Ship Your Idea - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/ship-your-idea-3/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Ship Your Idea"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 430,
+  "imgs": 19,
+  "noalt": 10,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/flying-ninja/",
+  "code": 200,
+  "loc": null,
+  "t": 2.18,
+  "size": 152114,
+  "title": "Flying Ninja - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/flying-ninja/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Flying Ninja"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 440,
+  "imgs": 21,
+  "noalt": 12,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/premium-quality-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 152749,
+  "title": "Premium Quality - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/premium-quality-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Premium Quality"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 433,
+  "imgs": 21,
+  "noalt": 12,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-ninja-3/",
+  "code": 200,
+  "loc": null,
+  "t": 1.88,
+  "size": 152386,
+  "title": "Woo Ninja - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-ninja-3/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Ninja"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 433,
+  "imgs": 21,
+  "noalt": 12,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-logo-3/",
+  "code": 200,
+  "loc": null,
+  "t": 1.83,
+  "size": 149663,
+  "title": "Woo Logo - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-logo-3/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Logo"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 427,
+  "imgs": 19,
+  "noalt": 10,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-album-1/",
+  "code": 200,
+  "loc": null,
+  "t": 1.86,
+  "size": 153482,
+  "title": "Woo Album #1 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-album-1/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Album #1"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 454,
+  "imgs": 21,
+  "noalt": 11,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-album-2/",
+  "code": 200,
+  "loc": null,
+  "t": 2.3,
+  "size": 156159,
+  "title": "Woo Album #2 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-album-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Album #2"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 461,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-album-3/",
+  "code": 200,
+  "loc": null,
+  "t": 1.71,
+  "size": 153251,
+  "title": "Woo Album #3 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-album-3/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Album #3"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 401,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-single-1/",
+  "code": 200,
+  "loc": null,
+  "t": 2.66,
+  "size": 155926,
+  "title": "Woo Single #1 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-single-1/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Single #1"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 454,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-album-4/",
+  "code": 200,
+  "loc": null,
+  "t": 2.09,
+  "size": 156174,
+  "title": "Woo Album #4 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/woo-album-4/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Album #4"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 461,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/woo-single-2/",
+  "code": 200,
+  "loc": null,
+  "t": 2.61,
+  "size": 153952,
+  "title": "Woo Single #2 - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/woo-single-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Woo Single #2"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 461,
+  "imgs": 21,
+  "noalt": 11,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/surfing-in-portugal/",
+  "code": 200,
+  "loc": null,
+  "t": 2.13,
+  "size": 154434,
+  "title": "Surfing in Portugal - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/surfing-in-portugal/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Surfing in Portugal"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 443,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/weekend-in-london/",
+  "code": 200,
+  "loc": null,
+  "t": 2.32,
+  "size": 154728,
+  "title": "Weekend in London - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/weekend-in-london/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Weekend in London"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 437,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/yoga-course/",
+  "code": 200,
+  "loc": null,
+  "t": 2.62,
+  "size": 155483,
+  "title": "Yoga Course - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/yoga-course/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Yoga Course"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 473,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/weekend-wine-course/",
+  "code": 200,
+  "loc": null,
+  "t": 2.3,
+  "size": 156306,
+  "title": "Weekend Wine Course - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/weekend-wine-course/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Weekend Wine Course"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 543,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/pink-check-shirt/",
+  "code": 200,
+  "loc": null,
+  "t": 2.38,
+  "size": 164608,
+  "title": "Pink Check Shirt - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/pink-check-shirt/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Pink Check Shirt"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 561,
+  "imgs": 27,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/print-ls-college-sweat/",
+  "code": 200,
+  "loc": null,
+  "t": 2.28,
+  "size": 167592,
+  "title": "Print Ls College Sweat - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/print-ls-college-sweat/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Print Ls College Sweat"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 550,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/raglan-tee-denim-supply-ralph-lauren/",
+  "code": 200,
+  "loc": null,
+  "t": 2.15,
+  "size": 167761,
+  "title": "Raglan Tee Denim & Supply Ralph Lauren - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/raglan-tee-denim-supply-ralph-lauren/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Raglan Tee Denim & Supply Ralph Lauren"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 551,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/sunny-tank-selected-femme-2/",
+  "code": 200,
+  "loc": null,
+  "t": 2.02,
+  "size": 167628,
+  "title": "Sunny Tank Selected Femme - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/sunny-tank-selected-femme-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Sunny Tank Selected Femme"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 549,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/indigo-blue-tee-lee-jeans/",
+  "code": 200,
+  "loc": null,
+  "t": 1.98,
+  "size": 167086,
+  "title": "Indigo Blue Tee Lee Jeans - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/indigo-blue-tee-lee-jeans/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Indigo Blue Tee Lee Jeans"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 544,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/beyond-top-nly-trend/",
+  "code": 200,
+  "loc": null,
+  "t": 2.16,
+  "size": 167169,
+  "title": "Beyond Top NLY Trend - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/beyond-top-nly-trend/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Beyond Top NLY Trend"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 570,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/lenox-star-knit-hunkydory/",
+  "code": 200,
+  "loc": null,
+  "t": 1.85,
+  "size": 166002,
+  "title": "Lenox Star Knit Hunkydory - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/lenox-star-knit-hunkydory/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Lenox Star Knit Hunkydory"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 531,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/sweat-blouse-gestuz/",
+  "code": 200,
+  "loc": null,
+  "t": 2.51,
+  "size": 166507,
+  "title": "Sweat Blouse Gestuz - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/sweat-blouse-gestuz/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Sweat Blouse Gestuz"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 551,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/on1-jersey-unif/",
+  "code": 200,
+  "loc": null,
+  "t": 2.13,
+  "size": 166995,
+  "title": "On1 Jersey UNIF - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/on1-jersey-unif/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "On1 Jersey UNIF"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 551,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/harissa-o-neck-sweat/",
+  "code": 200,
+  "loc": null,
+  "t": 2.11,
+  "size": 167103,
+  "title": "Harissa O-Neck Sweat - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/harissa-o-neck-sweat/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Harissa O-Neck Sweat"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 550,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/union-sweater-nly-trend/",
+  "code": 200,
+  "loc": null,
+  "t": 2.17,
+  "size": 167797,
+  "title": "Union Sweater NLY Trend - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/union-sweater-nly-trend/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Union Sweater NLY Trend"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 568,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/brooklyn-long-sleeve-sweater/",
+  "code": 200,
+  "loc": null,
+  "t": 2.16,
+  "size": 167229,
+  "title": "Brooklyn Long Sleeve Sweater - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/brooklyn-long-sleeve-sweater/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Brooklyn Long Sleeve Sweater"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 549,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/u420gkw-nok-799-new-balance-nelly-com/",
+  "code": 200,
+  "loc": null,
+  "t": 1.25,
+  "size": 159853,
+  "title": "U420GKW NOK 799 New Balance - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/u420gkw-nok-799-new-balance-nelly-com/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "U420GKW NOK 799 New Balance"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 510,
+  "imgs": 25,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/all-star-print-ox-converse/",
+  "code": 200,
+  "loc": null,
+  "t": 2.1,
+  "size": 162470,
+  "title": "All Star Print Ox Converse - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/all-star-print-ox-converse/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "All Star Print Ox Converse"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 510,
+  "imgs": 27,
+  "noalt": 15,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/u-era-vans/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 158806,
+  "title": "U Era VANS - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/u-era-vans/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "U Era  VANS"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 492,
+  "imgs": 25,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/magnete-exposure-diesel/",
+  "code": 200,
+  "loc": null,
+  "t": 2.06,
+  "size": 159393,
+  "title": "Magnete Exposure Diesel - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/magnete-exposure-diesel/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Magnete Exposure Diesel"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 498,
+  "imgs": 25,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/arizona-racer-ox-converse/",
+  "code": 200,
+  "loc": null,
+  "t": 2.15,
+  "size": 165574,
+  "title": "Arizona Racer Ox Converse - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/arizona-racer-ox-converse/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Arizona Racer Ox Converse"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 541,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/u-old-skool-vans/",
+  "code": 200,
+  "loc": null,
+  "t": 1.75,
+  "size": 158892,
+  "title": "U Old Skool VANS - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/u-old-skool-vans/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "U Old Skool VANS"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 512,
+  "imgs": 25,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/daisy-bag-sonia-by-sonia-rykiel/",
+  "code": 200,
+  "loc": null,
+  "t": 1.83,
+  "size": 155078,
+  "title": "Daisy Bag Sonia by Sonia Rykiel - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/daisy-bag-sonia-by-sonia-rykiel/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Daisy Bag Sonia by Sonia Rykiel"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 531,
+  "imgs": 21,
+  "noalt": 11,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/small-fortune-bag-converse/",
+  "code": 200,
+  "loc": null,
+  "t": 1.94,
+  "size": 160678,
+  "title": "Small Fortune Bag Converse - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/small-fortune-bag-converse/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Small Fortune Bag Converse"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 541,
+  "imgs": 25,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/alanya-braided-leather/",
+  "code": 200,
+  "loc": null,
+  "t": 1.18,
+  "size": 160452,
+  "title": "Alanya Braided Leather - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/alanya-braided-leather/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Alanya Braided Leather"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 537,
+  "imgs": 25,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/talifa-bag-nypd/",
+  "code": 200,
+  "loc": null,
+  "t": 1.85,
+  "size": 157139,
+  "title": "Talifa Bag , NYPD - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/talifa-bag-nypd/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Talifa Bag , NYPD"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 526,
+  "imgs": 23,
+  "noalt": 13,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/adelia-bag-nypd/",
+  "code": 200,
+  "loc": null,
+  "t": 1.83,
+  "size": 163059,
+  "title": "Adelia Bag, NYPD - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/adelia-bag-nypd/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Adelia Bag, NYPD"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 553,
+  "imgs": 27,
+  "noalt": 15,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/classic-bag-svea/",
+  "code": 200,
+  "loc": null,
+  "t": 1.88,
+  "size": 154796,
+  "title": "Classic Bag, Svea - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/classic-bag-svea/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Classic Bag, Svea"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 524,
+  "imgs": 21,
+  "noalt": 11,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/pima-ss-o-neck-noos-selected-homme/",
+  "code": 200,
+  "loc": null,
+  "t": 1.75,
+  "size": 165438,
+  "title": "Pima SS O-Neck NOOS Selected Homme - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/pima-ss-o-neck-noos-selected-homme/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Pima SS O-Neck NOOS  Selected Homme"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 529,
+  "imgs": 27,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/jeansmaker-tee-lee-jeans/",
+  "code": 200,
+  "loc": null,
+  "t": 1.44,
+  "size": 167573,
+  "title": "Jeansmaker Tee Lee Jeans - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/jeansmaker-tee-lee-jeans/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Jeansmaker Tee Lee Jeans"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 546,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/randal-tee-jack-jones/",
+  "code": 200,
+  "loc": null,
+  "t": 2.18,
+  "size": 167579,
+  "title": "Randal Tee Jack & Jones - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/randal-tee-jack-jones/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Randal Tee Jack & Jones"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 552,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/lawrance-polo-tee-jack-jones/",
+  "code": 200,
+  "loc": null,
+  "t": 2.11,
+  "size": 168144,
+  "title": "Lawrance Polo Tee Jack & Jones - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/lawrance-polo-tee-jack-jones/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Lawrance Polo Tee Jack & Jones"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 566,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/wicked-ss-o-neck-selected-homme/",
+  "code": 200,
+  "loc": null,
+  "t": 1.9,
+  "size": 168748,
+  "title": "Wicked SS O-Neck Selected Homme - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/wicked-ss-o-neck-selected-homme/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Wicked SS O-Neck Selected Homme"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 563,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/bjorn-tee-ss-jack-jones/",
+  "code": 200,
+  "loc": null,
+  "t": 2.18,
+  "size": 167947,
+  "title": "Bjorn Tee SS Jack & Jones - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/bjorn-tee-ss-jack-jones/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Bjorn Tee SS Jack & Jones"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 566,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/land-tee-jack-jones/",
+  "code": 200,
+  "loc": null,
+  "t": 1.55,
+  "size": 167415,
+  "title": "Land Tee Jack & Jones - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/land-tee-jack-jones/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Land Tee  Jack & Jones"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 563,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/ss-crew-california-sub-river-island/",
+  "code": 200,
+  "loc": null,
+  "t": 2.07,
+  "size": 168253,
+  "title": "SS Crew California Sub River Island - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/ss-crew-california-sub-river-island/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "SS Crew California Sub River Island"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 565,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/lucy-slim-jeans-nok-379-noisy-may/",
+  "code": 200,
+  "loc": null,
+  "t": 2.01,
+  "size": 168340,
+  "title": "Lucy Slim Jeans Noisy May - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/lucy-slim-jeans-nok-379-noisy-may/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Lucy Slim Jeans Noisy May"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 589,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/weekend-in-san-fransico/",
+  "code": 200,
+  "loc": null,
+  "t": 1.99,
+  "size": 152589,
+  "title": "Weekend in San Fransico - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/weekend-in-san-fransico/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Weekend in San Fransico"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 413,
+  "imgs": 21,
+  "noalt": 11,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/varanise-cn-tee-hilfiger-denim/",
+  "code": 200,
+  "loc": null,
+  "t": 1.85,
+  "size": 167068,
+  "title": "Varanise CN Tee Hilfiger Denim - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/varanise-cn-tee-hilfiger-denim/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Varanise CN Tee Hilfiger Denim"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 526,
+  "imgs": 29,
+  "noalt": 16,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/fluro-big-pullover-designers-remix/",
+  "code": 200,
+  "loc": null,
+  "t": 1.69,
+  "size": 164981,
+  "title": "Fluro Big Pullover Designers Remix - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product/fluro-big-pullover-designers-remix/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Fluro Big Pullover Designers Remix"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization"
+  ],
+  "words": 551,
+  "imgs": 27,
+  "noalt": 14,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/all-star-canvas-hi-converse/",
+  "code": 200,
+  "loc": null,
+  "t": 1.27,
+  "size": 156362,
+  "title": "All Star Canvas Hi Converse - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/all-star-canvas-hi-converse/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "All Star Canvas Hi Converse"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 496,
+  "imgs": 23,
+  "noalt": 12,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product/osaka-entry-tee-superdry/",
+  "code": 200,
+  "loc": null,
+  "t": 2.13,
+  "size": 165563,
+  "title": "Osaka Entry Tee Superdry - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product/osaka-entry-tee-superdry/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [
+   "Osaka Entry Tee Superdry"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebPage",
+   "ReadAction",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "Product",
+   "Offer",
+   "UnitPriceSpecification",
+   "Organization",
+   "AggregateRating"
+  ],
+  "words": 555,
+  "imgs": 27,
+  "noalt": 14,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/music/albums/",
+  "code": 200,
+  "loc": null,
+  "t": 1.53,
+  "size": 130688,
+  "title": "Lưu trữ Albums - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/music/albums/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 296,
+  "imgs": 13,
+  "noalt": 4,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/bags/",
+  "code": 200,
+  "loc": null,
+  "t": 1.88,
+  "size": 137091,
+  "title": "Lưu trữ Bags - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product-category/bags/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 334,
+  "imgs": 17,
+  "noalt": 6,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/booking/",
+  "code": 200,
+  "loc": null,
+  "t": 1.64,
+  "size": 135403,
+  "title": "Lưu trữ Booking - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product-category/booking/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 288,
+  "imgs": 17,
+  "noalt": 6,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/clothing/",
+  "code": 200,
+  "loc": null,
+  "t": 1.67,
+  "size": 127382,
+  "title": "Lưu trữ Clothing - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/clothing/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 283,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/clothing/hoodies/",
+  "code": 200,
+  "loc": null,
+  "t": 1.94,
+  "size": 127855,
+  "title": "Lưu trữ Hoodies - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/clothing/hoodies/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 285,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/women/jeans/",
+  "code": 200,
+  "loc": null,
+  "t": 2.09,
+  "size": 121708,
+  "title": "Lưu trữ Jeans - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/women/jeans/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 264,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/men/",
+  "code": 200,
+  "loc": null,
+  "t": 1.73,
+  "size": 147398,
+  "title": "Lưu trữ Men - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/men/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 393,
+  "imgs": 23,
+  "noalt": 9,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/music/",
+  "code": 200,
+  "loc": null,
+  "t": 1.87,
+  "size": 136760,
+  "title": "Lưu trữ Music - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/music/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 329,
+  "imgs": 17,
+  "noalt": 6,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/posters/",
+  "code": 200,
+  "loc": null,
+  "t": 2.48,
+  "size": 133382,
+  "title": "Lưu trữ Posters - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/posters/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 309,
+  "imgs": 15,
+  "noalt": 5,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/shoes/",
+  "code": 200,
+  "loc": null,
+  "t": 2.11,
+  "size": 139336,
+  "title": "Lưu trữ Shoes - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product-category/shoes/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 330,
+  "imgs": 19,
+  "noalt": 7,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/music/singles/",
+  "code": 200,
+  "loc": null,
+  "t": 1.52,
+  "size": 124941,
+  "title": "Lưu trữ Singles - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/music/singles/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 281,
+  "imgs": 9,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/sweaters/",
+  "code": 200,
+  "loc": null,
+  "t": 1.88,
+  "size": 139659,
+  "title": "Lưu trữ Sweaters - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/sweaters/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 329,
+  "imgs": 19,
+  "noalt": 7,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/men/t-shirts/",
+  "code": 200,
+  "loc": null,
+  "t": 1.89,
+  "size": 147909,
+  "title": "Lưu trữ T-Shirts - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/men/t-shirts/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 395,
+  "imgs": 23,
+  "noalt": 9,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/women/tops/",
+  "code": 200,
+  "loc": null,
+  "t": 2.2,
+  "size": 141875,
+  "title": "Lưu trữ Tops - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/women/tops/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 388,
+  "imgs": 19,
+  "noalt": 7,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-category/women/",
+  "code": 200,
+  "loc": null,
+  "t": 1.67,
+  "size": 157045,
+  "title": "Lưu trữ Women - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-category/women/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 439,
+  "imgs": 29,
+  "noalt": 12,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/bag/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 133936,
+  "title": "Lưu trữ bag - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/bag/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 322,
+  "imgs": 15,
+  "noalt": 5,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/classic/",
+  "code": 200,
+  "loc": null,
+  "t": 1.55,
+  "size": 121204,
+  "title": "Lưu trữ classic - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/classic/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 265,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/converse/",
+  "code": 200,
+  "loc": null,
+  "t": 1.77,
+  "size": 127475,
+  "title": "Lưu trữ Converse - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/converse/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 291,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/diesel/",
+  "code": 200,
+  "loc": null,
+  "t": 1.71,
+  "size": 127239,
+  "title": "Lưu trữ Diesel - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/diesel/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 290,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/fit/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 121262,
+  "title": "Lưu trữ fit - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/fit/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 267,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/green/",
+  "code": 200,
+  "loc": null,
+  "t": 1.62,
+  "size": 127235,
+  "title": "Lưu trữ green - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/green/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 282,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/jack-and-jones/",
+  "code": 200,
+  "loc": null,
+  "t": 1.6,
+  "size": 134685,
+  "title": "Lưu trữ Jack and Jones - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/jack-and-jones/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 343,
+  "imgs": 15,
+  "noalt": 5,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/jeans-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.78,
+  "size": 127831,
+  "title": "Lưu trữ jeans - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/jeans-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 297,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/jumper/",
+  "code": 200,
+  "loc": null,
+  "t": 1.79,
+  "size": 121158,
+  "title": "Lưu trữ Jumper - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/jumper/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 264,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/leather/",
+  "code": 200,
+  "loc": null,
+  "t": 1.66,
+  "size": 127613,
+  "title": "Lưu trữ leather - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/leather/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 293,
+  "imgs": 11,
+  "noalt": 3,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/lee/",
+  "code": 200,
+  "loc": null,
+  "t": 1.9,
+  "size": 121115,
+  "title": "Lưu trữ Lee - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/lee/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 261,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/levis/",
+  "code": 200,
+  "loc": null,
+  "t": 2.22,
+  "size": 121302,
+  "title": "Lưu trữ levis - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/levis/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 267,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/man/",
+  "code": 200,
+  "loc": null,
+  "t": 1.3,
+  "size": 147438,
+  "title": "Lưu trữ man - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/man/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 398,
+  "imgs": 23,
+  "noalt": 9,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/nypd/",
+  "code": 200,
+  "loc": null,
+  "t": 1.35,
+  "size": 124375,
+  "title": "Lưu trữ nypd - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/nypd/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 279,
+  "imgs": 9,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/party/",
+  "code": 200,
+  "loc": null,
+  "t": 1.8,
+  "size": 121304,
+  "title": "Lưu trữ party - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/party/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 267,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/pink/",
+  "code": 200,
+  "loc": null,
+  "t": 1.3,
+  "size": 121120,
+  "title": "Lưu trữ Pink - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/pink/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 264,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/river-island/",
+  "code": 200,
+  "loc": null,
+  "t": 1.91,
+  "size": 121428,
+  "title": "Lưu trữ River Island - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/river-island/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 270,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/rock-chick/",
+  "code": 200,
+  "loc": null,
+  "t": 1.98,
+  "size": 124477,
+  "title": "Lưu trữ rock chick - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/rock-chick/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 280,
+  "imgs": 9,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/run/",
+  "code": 200,
+  "loc": null,
+  "t": 1.97,
+  "size": 123915,
+  "title": "Lưu trữ run - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/run/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 267,
+  "imgs": 9,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/shoe/",
+  "code": 200,
+  "loc": null,
+  "t": 1.93,
+  "size": 139359,
+  "title": "Lưu trữ shoe - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/shoe/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 335,
+  "imgs": 19,
+  "noalt": 7,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/stars/",
+  "code": 200,
+  "loc": null,
+  "t": 1.47,
+  "size": 136432,
+  "title": "Lưu trữ stars - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "http://taichinh-thanglong.com/product-tag/stars/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 327,
+  "imgs": 17,
+  "noalt": 6,
+  "http_links": 1,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/sweden/",
+  "code": 200,
+  "loc": null,
+  "t": 2.19,
+  "size": 121191,
+  "title": "Lưu trữ sweden - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/sweden/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 265,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/t-shirt/",
+  "code": 200,
+  "loc": null,
+  "t": 2.28,
+  "size": 147521,
+  "title": "Lưu trữ t-shirt - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/t-shirt/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 398,
+  "imgs": 23,
+  "noalt": 9,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/vans/",
+  "code": 200,
+  "loc": null,
+  "t": 2.12,
+  "size": 121092,
+  "title": "Lưu trữ vans - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/vans/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 265,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/washed-out/",
+  "code": 200,
+  "loc": null,
+  "t": 2.0,
+  "size": 121401,
+  "title": "Lưu trữ washed-out - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/washed-out/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 267,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/white/",
+  "code": 200,
+  "loc": null,
+  "t": 1.94,
+  "size": 124503,
+  "title": "Lưu trữ white - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/white/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 281,
+  "imgs": 9,
+  "noalt": 2,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/product-tag/women-2/",
+  "code": 200,
+  "loc": null,
+  "t": 1.55,
+  "size": 121329,
+  "title": "Lưu trữ women - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [
+   "https://taichinh-thanglong.com/product-tag/women-2/"
+  ],
+  "robots": [
+   "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  ],
+  "h1": [],
+  "h2n": 1,
+  "jsonld_types": [
+   "CollectionPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification",
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem"
+  ],
+  "words": 267,
+  "imgs": 7,
+  "noalt": 1,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/khong-ton-tai-xyz/",
+  "code": 404,
+  "loc": null,
+  "t": 1.22,
+  "size": 109076,
+  "title": "Không tìm thấy trang - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [],
+  "robots": [
+   "noindex, follow"
+  ],
+  "h1": [
+   "Oops! That page can’t be found."
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 202,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ },
+ {
+  "url": "https://taichinh-thanglong.com/?s=chung+minh",
+  "code": 200,
+  "loc": null,
+  "t": 1.57,
+  "size": 123512,
+  "title": "Bạn đã tìm chung minh - TÀI CHÍNH THĂNG LONG",
+  "desc": null,
+  "canonical": [],
+  "robots": [
+   "noindex, follow"
+  ],
+  "h1": [
+   "Search Results for: chung minh"
+  ],
+  "h2n": 1,
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ListItem",
+   "ListItem",
+   "WebSite",
+   "SearchAction",
+   "EntryPoint",
+   "PropertyValueSpecification"
+  ],
+  "words": 567,
+  "imgs": 5,
+  "noalt": 0,
+  "http_links": 0,
+  "og": true,
+  "lang": "vi"
+ }
+]

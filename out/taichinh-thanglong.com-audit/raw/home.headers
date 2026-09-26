@@ -1,0 +1,16 @@
+HTTP/2 200 
+x-powered-by: PHP/7.4.23
+content-type: text/html; charset=UTF-8
+link: <https://taichinh-thanglong.com/wp-json/>; rel="https://api.w.org/"
+link: <https://taichinh-thanglong.com/wp-json/wp/v2/pages/81>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://taichinh-thanglong.com/>; rel=shortlink
+date: Sat, 26 Sep 2026 01:48:51 GMT
+server: LiteSpeed
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+expect-ct: enforce, max-age=21600
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+

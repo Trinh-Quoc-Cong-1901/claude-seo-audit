@@ -1,0 +1,317 @@
+{
+ "summary": {
+  "health_score": 40,
+  "business_type": "Dịch vụ tài chính (chứng minh tài chính du học, du lịch, doanh nghiệp) – website WordPress + Flatsome + WooCommerce, Hà Nội",
+  "top_findings": [
+   {
+    "title": "Toàn site khai báo canonical, og:url, schema và sitemap bằng http:// trong khi trang chạy https:// – và http:// không chuyển hướng sang https://",
+    "severity": "Critical"
+   },
+   {
+    "title": "107/150 URL trong sitemap (71%) là nội dung demo của theme: 57 sản phẩm mẫu (áo, giày, ninja…), 42 trang danh mục/thẻ sản phẩm, 8 trang “blocks” trống – đều cho phép Google index",
+    "severity": "Critical"
+   },
+   {
+    "title": "Trang “Giới thiệu” (/gioi-thieu/) sao chép giới thiệu của một công ty khác (CMTC Khoa Lê, chungminhtaichinh.vn) – gây nhầm lẫn thương hiệu và mất tín nhiệm E-E-A-T",
+    "severity": "Critical"
+   },
+   {
+    "title": "0/150 trang có meta description; 13/15 trang dịch vụ chính không có thẻ H1",
+    "severity": "High"
+   },
+   {
+    "title": "Tin tức duy nhất là 8 bài năm 2019 về xuất khẩu lao động (TTC Việt Nam) – lệch hoàn toàn chủ đề tài chính và hiển thị ngay trên trang chủ",
+    "severity": "High"
+   }
+  ],
+  "quick_wins": [
+   "Đổi “Địa chỉ WordPress” và “Địa chỉ trang” trong Cài đặt → Tổng quan sang https://, rồi thêm chuyển hướng 301 http → https trong .htaccess",
+   "Xoá toàn bộ sản phẩm demo, danh mục/thẻ sản phẩm và blocks mẫu; tắt sitemap sản phẩm/blocks trong Yoast",
+   "Viết lại trang /gioi-thieu/ bằng thông tin thật của Tài Chính Thăng Long, gộp /gioi-thieu-2/ về một URL duy nhất",
+   "Viết meta description cho trang chủ và 15 trang dịch vụ; đổi tiêu đề bài viết (đang là thẻ H3) thành H1",
+   "Xoá chữ mẫu “Assign a menu in Theme Options > Menus” và khối số liệu “TOP 10 … trước năm 2018” lặp 3 lần trên trang chủ"
+  ]
+ },
+ "categories": [
+  {
+   "name": "SEO kỹ thuật (Technical SEO)",
+   "score": 42,
+   "what_works": [
+    "https:// hoạt động, có HSTS và đủ các header bảo mật (X-Frame-Options, nosniff, Referrer-Policy)",
+    "www chuyển hướng 301 về tên miền gốc",
+    "robots.txt hợp lệ, chặn đúng /wp-admin/ và các thư mục WooCommerce",
+    "URL không tồn tại trả mã 404 chuẩn; giỏ hàng, tài khoản và trang tìm kiếm đã có noindex",
+    "Yoast SEO đã cài, tự sinh sitemap_index.xml"
+   ],
+   "findings": [
+    {
+     "title": "Canonical và sitemap trỏ về http:// – http không chuyển hướng",
+     "severity": "Critical",
+     "description": "Trang chủ và các trang dịch vụ đều có &lt;link rel=\"canonical\" href=\"http://taichinh-thanglong.com/...\"&gt;, og:url và JSON-LD cũng dùng http://. Truy cập http://taichinh-thanglong.com/ trả 200 thay vì chuyển hướng. Kết quả là Google thấy 2 phiên bản của mỗi trang và được yêu cầu chọn bản http (không bảo mật). robots.txt và sitemap_index.xml cũng khai báo toàn bộ URL bằng http://.",
+     "recommendation": "Vào WordPress → Cài đặt → Tổng quan, đổi cả 2 địa chỉ sang https://taichinh-thanglong.com. Thêm redirect 301 http → https (LiteSpeed/.htaccess). Chạy Better Search Replace để đổi http:// → https:// trong database. Sau đó gửi lại sitemap https trong Google Search Console."
+    },
+    {
+     "title": "71% sitemap là nội dung demo của theme",
+     "severity": "Critical",
+     "description": "product-sitemap (57 URL như /product/luxury-hotel/, /product/woo-ninja-3/, /product/u-old-skool-vans/), product_cat (15), product_tag (27) và blocks-sitemap (8) đều là dữ liệu mẫu của Flatsome/WooCommerce, có robots “index, follow”. Google phải crawl 107 trang rác, và site bị đánh giá là chất lượng thấp, không rõ chủ đề.",
+     "recommendation": "Xoá vĩnh viễn toàn bộ sản phẩm, danh mục, thẻ và UX Blocks mẫu. Nếu không bán hàng online, tắt WooCommerce. Trong Yoast → Loại nội dung, tắt hiển thị Sản phẩm/Blocks trên kết quả tìm kiếm. Các URL đã bị index nên trả 410."
+    },
+    {
+     "title": "Thời gian phản hồi máy chủ chậm",
+     "severity": "High",
+     "description": "Thời gian tải HTML trung bình 1,86 giây trên 150 URL (cao nhất 2,66 giây); Lighthouse ghi nhận TTFB 850–930 ms. Server chạy PHP 7.4.23 – phiên bản đã hết hỗ trợ bảo mật từ 11/2022.",
+     "recommendation": "Bật LiteSpeed Cache (máy chủ đã là LiteSpeed) để cache toàn trang. Nâng PHP lên 8.2 hoặc 8.3 sau khi kiểm tra tương thích plugin."
+    },
+    {
+     "title": "Trang trùng lặp và trang rỗng",
+     "severity": "Medium",
+     "description": "/gioi-thieu/ và /gioi-thieu-2/ trùng tiêu đề “Giới thiệu”. /main/, /cmtc-du-hoc/, /cmtc-du-lich/ chỉ có form đăng ký và danh sách bài xuất khẩu lao động. Nhiều slug có hậu tố “-2” (…-dai-loan-2, …-nhat-ban-2) do tạo trùng trang.",
+     "recommendation": "Gộp /gioi-thieu-2/ vào /gioi-thieu/ bằng 301. Đặt noindex hoặc xoá /main/. Biến /cmtc-du-hoc/ và /cmtc-du-lich/ thành trang tổng hợp thật (hub) liên kết tới từng quốc gia, hoặc 301 về trang dịch vụ tương ứng."
+    },
+    {
+     "title": "8 trang không có title, canonical, lang",
+     "severity": "Low",
+     "description": "Các URL /blocks/… trả về trang trống không có &lt;title&gt;, canonical hay thẻ lang.",
+     "recommendation": "Sẽ được xử lý khi xoá UX Blocks demo khỏi sitemap."
+    }
+   ]
+  },
+  {
+   "name": "Nội dung &amp; E-E-A-T",
+   "score": 35,
+   "what_works": [
+    "Các trang dịch vụ chính dài và chi tiết (2.200–4.800 từ), có mục thủ tục, chi phí, lý do bị từ chối và câu hỏi thường gặp",
+    "Trang chủ nêu rõ phạm vi hoạt động (34 tỉnh/thành) và danh sách ngân hàng hợp tác",
+    "Có địa chỉ, hotline, Zalo, giờ làm việc ở chân trang"
+   ],
+   "findings": [
+    {
+     "title": "Trang Giới thiệu sao chép thương hiệu khác",
+     "severity": "Critical",
+     "description": "/gioi-thieu/ có H1 “GIỚI THIỆU CMTC KHOA LÊ” và viết rằng trang “thuộc sở hữu của Công ty TNHH Dịch vụ Tư vấn Khoa Lê, trang chủ là khoale.com.vn”. Với lĩnh vực tài chính (YMYL), Google đánh giá rất nặng sự minh bạch về chủ sở hữu; nội dung này làm người đọc và Google không biết ai thực sự cung cấp dịch vụ, đồng thời là nội dung trùng lặp với site khác.",
+     "recommendation": "Viết lại hoàn toàn: tên pháp nhân, mã số doanh nghiệp, người đại diện, năm thành lập, địa chỉ văn phòng, ảnh đội ngũ thật, giấy phép (nếu có). Liên kết trang này từ menu và chân trang."
+    },
+    {
+     "title": "Chuyên mục tin tức lệch chủ đề và cũ",
+     "severity": "High",
+     "description": "Blog chỉ có 8 bài đăng 26/07/2019 về xuất khẩu lao động của “TTC Việt Nam”. Các bài này xuất hiện ở khối “Tin tức” trang chủ và sidebar mọi trang. Chúng không liên quan đến chứng minh tài chính và làm loãng chủ đề của site.",
+     "recommendation": "Xoá hoặc noindex 8 bài này (và 3 chuyên mục đi kèm). Xây dựng nội dung mới đúng chủ đề: chứng minh tài chính theo từng nước, số dư cần có, thời gian mở sổ, hồ sơ visa…"
+    },
+    {
+     "title": "Nội dung mẫu và thông tin lỗi thời trên trang chủ",
+     "severity": "High",
+     "description": "Trang chủ hiển thị khối “Top 10 doanh nghiệp hàng đầu… hướng tới TOP 10 doanh nghiệp Tài chính Việt Nam trước năm 2018” lặp lại 3 lần, và dòng chữ mẫu của theme “Assign a menu in Theme Options &gt; Menus”.",
+     "recommendation": "Thay bằng số liệu thật (số hồ sơ đã hỗ trợ, số năm hoạt động, tỷ lệ đậu visa) hoặc xoá khối này. Gán menu mobile trong Theme Options."
+    },
+    {
+     "title": "Thiếu tín hiệu chuyên môn và tin cậy (YMYL)",
+     "severity": "Medium",
+     "description": "Không có tác giả/chuyên gia đứng tên bài, không có ngày cập nhật trên trang dịch vụ, không có đánh giá khách hàng, email liên hệ dùng Gmail. Trang tuyển dụng, đào tạo, thư viện ảnh còn nội dung của công ty xuất khẩu lao động.",
+     "recommendation": "Thêm hộp tác giả (tên, kinh nghiệm), ngày cập nhật, trích dẫn nguồn chính thức (website đại sứ quán, quy định visa), đánh giá khách hàng có thật. Dùng email tên miền riêng (vd. lienhe@taichinh-thanglong.com). Xoá hoặc viết lại trang Tuyển dụng/Đào tạo/Thư viện ảnh."
+    }
+   ]
+  },
+  {
+   "name": "On-page SEO",
+   "score": 35,
+   "what_works": [
+    "Tiêu đề các trang dịch vụ chứa từ khoá chính (vd. “Chứng minh tài chính du học Mỹ”)",
+    "URL thân thiện, không dấu, mô tả đúng nội dung",
+    "Mỗi trang dịch vụ có cấu trúc H2 rõ ràng"
+   ],
+   "findings": [
+    {
+     "title": "Không có meta description trên toàn site",
+     "severity": "High",
+     "description": "0/150 URL có meta description. Google phải tự trích đoạn văn bất kỳ, thường là menu hoặc chữ trong banner, làm giảm tỷ lệ nhấp.",
+     "recommendation": "Viết meta description 140–160 ký tự cho trang chủ và từng trang dịch vụ trong Yoast, có từ khoá + lợi ích + lời kêu gọi (vd. “Tư vấn miễn phí, thu phí sau khi hoàn thành”)."
+    },
+    {
+     "title": "Trang dịch vụ thiếu thẻ H1",
+     "severity": "High",
+     "description": "74/150 URL không có H1, trong đó có trang chủ và gần như toàn bộ trang dịch vụ (du học Mỹ, Canada, Úc, Nhật; du lịch; doanh nghiệp…). Tiêu đề chính của bài được định dạng bằng thẻ &lt;h3&gt; kèm CSS inline.",
+     "recommendation": "Đổi dòng tiêu đề đầu bài từ &lt;h3&gt; sang &lt;h1&gt;. Trang chủ thêm một H1 như “Dịch vụ chứng minh tài chính du học, du lịch, visa uy tín”."
+    },
+    {
+     "title": "Tiêu đề trang chưa tối ưu",
+     "severity": "Medium",
+     "description": "Tiêu đề trang chủ là “Trang chủ - TÀI CHÍNH THĂNG LONG” – không chứa từ khoá dịch vụ. Hậu tố thương hiệu viết HOA 22 ký tự chiếm chỗ trong tiêu đề. 8 bài tin tức có tiêu đề 90–146 ký tự, bị cắt trên Google.",
+     "recommendation": "Trang chủ: “Dịch vụ chứng minh tài chính du học, du lịch | Tài Chính Thăng Long”. Rút gọn hậu tố thành “| Thăng Long”. Giữ tiêu đề dưới 60 ký tự."
+    }
+   ]
+  },
+  {
+   "name": "Dữ liệu có cấu trúc (Schema)",
+   "score": 30,
+   "what_works": [
+    "Yoast xuất WebSite, WebPage, BreadcrumbList và Article (cho bài viết)"
+   ],
+   "findings": [
+    {
+     "title": "Không có schema doanh nghiệp",
+     "severity": "High",
+     "description": "Không có Organization, LocalBusiness hoặc FinancialService. Google và các công cụ AI không có dữ liệu có cấu trúc về tên công ty, địa chỉ 19 Bà Triệu, số điện thoại, giờ làm việc, logo hay fanpage. Mô tả của WebSite đang để trống.",
+     "recommendation": "Trong Yoast → Tối ưu hoá giao diện tìm kiếm → Đại diện trang, chọn “Tổ chức”, nhập tên, logo. Thêm JSON-LD FinancialService (kế thừa LocalBusiness) với address, telephone, openingHours, areaServed, sameAs (Facebook, Zalo)."
+    },
+    {
+     "title": "Schema dùng URL http:// và thiếu Service",
+     "severity": "Medium",
+     "description": "Mọi @id và url trong JSON-LD đều là http://. Trang dịch vụ chỉ là WebPage chung chung.",
+     "recommendation": "Tự khắc phục khi đổi site sang https. Thêm schema Service cho từng trang dịch vụ (serviceType, provider, areaServed). Mục “Câu hỏi thường gặp” có thể thêm FAQPage – không còn hiện rich result cho phần lớn website nhưng vẫn giúp AI hiểu nội dung."
+    }
+   ]
+  },
+  {
+   "name": "Hiệu suất (Core Web Vitals)",
+   "score": 58,
+   "what_works": [
+    "CLS = 0 trên cả 3 loại trang (bố cục không bị xô lệch)",
+    "TBT thấp (20–40 ms), JavaScript không chặn tương tác",
+    "Máy chủ hỗ trợ HTTP/2 và HTTP/3"
+   ],
+   "findings": [
+    {
+     "title": "LCP trang chủ 14,6 giây trên di động",
+     "severity": "High",
+     "description": "Phần tử LCP là ảnh nền banner (background-image) nên trình duyệt phát hiện rất muộn. Trang chủ nặng 4,97 MB; ảnh PNG lớn nhất 1,4 MB và 1,27 MB. Lighthouse ước tính tiết kiệm 3,8 MB nếu dùng WebP/AVIF và 2,4 MB nếu lazy-load ảnh ngoài màn hình.",
+     "recommendation": "Chuyển banner sang thẻ &lt;img&gt; với fetchpriority=\"high\", nén về WebP &lt; 150 KB và đúng kích thước hiển thị. Bật chuyển đổi WebP + lazy-load trong LiteSpeed Cache."
+    },
+    {
+     "title": "CSS/JS chặn hiển thị và cache ngắn",
+     "severity": "Medium",
+     "description": "Tài nguyên chặn render làm chậm ~1,2 giây. 37 file tĩnh có thời gian cache ngắn.",
+     "recommendation": "Bật tối ưu CSS/JS (gộp, defer, Critical CSS) và cache trình duyệt dài hạn trong LiteSpeed Cache."
+    }
+   ]
+  },
+  {
+   "name": "Tối ưu cho AI Search (GEO)",
+   "score": 40,
+   "what_works": [
+    "robots.txt không chặn các bot AI (GPTBot, PerplexityBot, Google-Extended…)",
+    "Trang dịch vụ có cấu trúc hỏi–đáp, dễ trích dẫn"
+   ],
+   "findings": [
+    {
+     "title": "Thực thể thương hiệu không rõ ràng",
+     "severity": "High",
+     "description": "Các AI (ChatGPT, Gemini, AI Overviews) xác định doanh nghiệp dựa vào sự nhất quán của tên, địa chỉ, chủ sở hữu. Hiện site có 3 tên khác nhau: Tài Chính Thăng Long, CMTC Khoa Lê và TTC Việt Nam.",
+     "recommendation": "Thống nhất 1 tên thương hiệu trên toàn site, schema Organization và Google Business Profile, Facebook."
+    },
+    {
+     "title": "Thiếu đoạn trả lời ngắn có số liệu",
+     "severity": "Medium",
+     "description": "Trang dịch vụ dài nhưng câu trả lời cho câu hỏi chính (vd. “Du học Mỹ cần chứng minh bao nhiêu tiền?”) nằm sâu trong bài, ít số liệu cụ thể có nguồn.",
+     "recommendation": "Mở đầu mỗi trang bằng đoạn tóm tắt 40–60 từ trả lời trực tiếp, kèm con số và nguồn (website lãnh sự quán). Tạo /llms.txt (hiện 404) liệt kê các trang dịch vụ chính."
+    }
+   ]
+  },
+  {
+   "name": "Hình ảnh",
+   "score": 35,
+   "what_works": [
+    "Logo và ảnh banner có kích thước hợp lý về tỷ lệ"
+   ],
+   "findings": [
+    {
+     "title": "46% ảnh thiếu thuộc tính alt",
+     "severity": "Medium",
+     "description": "1.083/2.338 thẻ &lt;img&gt; trên 150 trang không có alt (trang chủ 14/19 ảnh).",
+     "recommendation": "Điền alt mô tả cho ảnh nội dung (vd. “Sổ tiết kiệm chứng minh tài chính du học Úc”); ảnh trang trí để alt=\"\"."
+    },
+    {
+     "title": "Ảnh lưu trên dịch vụ lưu trữ miễn phí bên ngoài",
+     "severity": "Medium",
+     "description": "Các ảnh lớn trên trang chủ tải từ cdn.phototourl.com/free/… Dịch vụ miễn phí có thể xoá ảnh bất cứ lúc nào, và Google không gán giá trị ảnh cho tên miền của bạn.",
+     "recommendation": "Tải ảnh về thư viện Media của WordPress, nén WebP, đặt tên file có từ khoá."
+    }
+   ]
+  }
+ ],
+ "psi": {
+  "psi": {
+   "mobile": {
+    "lighthouse_scores": {
+     "performance": 69,
+     "accessibility": 85,
+     "best-practices": 79,
+     "seo": 92
+    },
+    "lab_metrics": {
+     "first-contentful-paint": {
+      "display": "2.3 s",
+      "score": 0.74
+     },
+     "largest-contentful-paint": {
+      "display": "14.6 s",
+      "score": 0
+     },
+     "total-blocking-time": {
+      "display": "40 ms",
+      "score": 1
+     },
+     "cumulative-layout-shift": {
+      "display": "0",
+      "score": 1
+     },
+     "speed-index": {
+      "display": "4.7 s",
+      "score": 0.68
+     },
+     "interactive": {
+      "display": "21.9 s",
+      "score": 0.01
+     }
+    }
+   }
+  }
+ },
+ "action_plan": {
+  "phases": [
+   {
+    "name": "Giai đoạn 1: Sửa lỗi nghiêm trọng",
+    "timeframe": "Tuần 1",
+    "items": [
+     "Chuyển toàn site sang https (địa chỉ WordPress, redirect 301, thay URL trong database), gửi lại sitemap https",
+     "Xoá sản phẩm, danh mục, thẻ và UX Blocks demo; tắt WooCommerce nếu không dùng",
+     "Viết lại trang Giới thiệu bằng thông tin thật; gộp /gioi-thieu-2/",
+     "Xoá chữ mẫu theme và khối “TOP 10 … 2018” trên trang chủ"
+    ]
+   },
+   {
+    "name": "Giai đoạn 2: On-page &amp; Schema",
+    "timeframe": "Tuần 2–3",
+    "items": [
+     "Meta description + H1 cho trang chủ và 15 trang dịch vụ",
+     "Tối ưu tiêu đề trang chủ và hậu tố thương hiệu",
+     "Cấu hình Organization trong Yoast + JSON-LD FinancialService, Service cho trang dịch vụ",
+     "Xoá/noindex 8 bài xuất khẩu lao động và các trang Tuyển dụng, Đào tạo, Thư viện ảnh cũ"
+    ]
+   },
+   {
+    "name": "Giai đoạn 3: Hiệu suất",
+    "timeframe": "Tuần 3–4",
+    "items": [
+     "Bật LiteSpeed Cache (page cache, WebP, lazy-load, tối ưu CSS/JS)",
+     "Chuyển banner LCP sang &lt;img&gt; ưu tiên cao, nén &lt; 150 KB",
+     "Chuyển ảnh từ phototourl.com về thư viện Media; điền alt",
+     "Nâng PHP 7.4 → 8.2/8.3"
+    ]
+   },
+   {
+    "name": "Giai đoạn 4: Nội dung &amp; uy tín",
+    "timeframe": "Tháng 2–3",
+    "items": [
+     "Hộp tác giả, ngày cập nhật, nguồn trích dẫn chính thức trên mỗi trang dịch vụ",
+     "Đoạn tóm tắt trả lời nhanh đầu trang; thêm /llms.txt",
+     "Lịch 4–6 bài/tháng đúng chủ đề (CMTC theo nước: Hàn Quốc, Đức, Anh, Schengen…)",
+     "Tạo/đồng bộ Google Business Profile, thu thập đánh giá khách hàng; kết nối Google Search Console để theo dõi index"
+    ]
+   }
+  ]
+ },
+ "artifacts": {
+  "findings_dir": "findings/",
+  "screenshots_dir": "screenshots/"
+ }
+}

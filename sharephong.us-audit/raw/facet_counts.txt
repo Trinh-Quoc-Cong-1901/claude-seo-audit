@@ -1,0 +1,12 @@
+5 search/midway-city/apartment/private-entrance
+0 search/louisville-ky/mobile-home
+0 search/garland/garage-conversion/private-entrance
+0 search/stanton-ca/mobile-home
+2 search/milpitas/townhouse
+0 search/houston/townhouse/private-entrance
+19 search/santa-ana/adu-jadu/private-entrance
+0 search/garden-grove/mobile-home
+0 search/bay-area/apartment
+0 search/louisville-ky/private-entrance
+0 search/orange-county/garage-conversion/private-entrance
+1 search/san-jose/garage-conversion

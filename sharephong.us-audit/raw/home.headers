@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.24.0
+Date: Fri, 25 Sep 2026 11:59:15 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 61759
+Connection: keep-alive
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+X-Powered-By: Next.js
+ETag: "10xqpkoj5ai19j0"
+Vary: Accept-Encoding
+

@@ -1,0 +1,332 @@
+<title>SEO Audit Tài Chính Thăng Long</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --navy:#1e3a5f; --gold:#b8860b; --pass:#2d6a4f; --warn:#d4740e; --fail:#c53030;
+  --bg:#faf9f7; --surface:#ffffff; --ink:#1c2430; --muted:#5a6473; --line:#e4e1da; --tint:#eef2f7;
+  --navy-ink:#1e3a5f; --bar-bg:#ece9e3;
+  --serif:"Lora",Georgia,"Times New Roman",serif;
+  --sans:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#11161d; --surface:#18202a; --ink:#e6e9ee; --muted:#9aa5b4; --line:#2a3542; --tint:#1c2733;
+    --navy-ink:#9dbbe0; --gold:#d9a93a; --pass:#5fb58c; --warn:#f0954a; --fail:#f07171; --bar-bg:#26303c;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#11161d; --surface:#18202a; --ink:#e6e9ee; --muted:#9aa5b4; --line:#2a3542; --tint:#1c2733;
+  --navy-ink:#9dbbe0; --gold:#d9a93a; --pass:#5fb58c; --warn:#f0954a; --fail:#f07171; --bar-bg:#26303c;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;padding-inline:20px;padding-block:0 64px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px}
+@media (max-width:900px){.wrap{grid-template-columns:1fr;gap:0}.toc{display:none}}
+header.cover{max-width:1120px;margin:0 auto;padding-block:48px 32px;border-bottom:2px solid var(--navy-ink);margin-bottom:32px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:end}
+@media (max-width:700px){header.cover{grid-template-columns:1fr}}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600}
+h1{font-family:var(--serif);font-size:clamp(32px,5vw,48px);line-height:1.1;color:var(--navy-ink);margin:8px 0 12px;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:6px 20px}
+.meta b{color:var(--ink);font-weight:600}
+.score{display:grid;justify-items:center;gap:4px}
+.score .num{font-family:var(--serif);font-size:72px;line-height:1;color:var(--warn);font-variant-numeric:tabular-nums}
+.score .of{font-size:13px;color:var(--muted)}
+.score .lbl{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--warn)}
+.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:14px}
+.toc a{display:block;color:var(--muted);text-decoration:none;padding:5px 0 5px 12px;border-left:2px solid var(--line)}
+.toc a:hover,.toc a:focus-visible{color:var(--navy-ink);border-left-color:var(--gold);outline:none}
+main{min-width:0}
+section{padding-block:8px 32px;border-bottom:1px solid var(--line);margin-bottom:32px}
+section:last-child{border-bottom:0}
+h2{font-family:var(--serif);font-size:28px;color:var(--navy-ink);margin:0 0 6px;text-wrap:balance}
+h2 .sc{font-family:var(--sans);font-size:15px;font-weight:600;padding:2px 10px;border-radius:4px;margin-left:10px;vertical-align:middle;white-space:nowrap}
+h3{font-size:17px;margin:28px 0 8px;color:var(--ink)}
+p{margin:0 0 14px;max-width:72ch}
+.lede{color:var(--muted);max-width:72ch;margin-bottom:20px}
+code,.mono{font-family:var(--mono);font-size:.86em;background:var(--tint);padding:1px 5px;border-radius:3px;word-break:break-word}
+a{color:var(--navy-ink)}
+.bars{display:grid;gap:10px;margin:8px 0 24px}
+.bar{display:grid;grid-template-columns:190px minmax(0,1fr) 44px 48px;gap:12px;align-items:center;font-size:14px}
+@media (max-width:560px){.bar{grid-template-columns:120px minmax(0,1fr) 36px;}.bar .w{display:none}}
+.track{height:12px;background:var(--bar-bg);border-radius:2px;position:relative;overflow:hidden}
+.fill{height:100%;border-radius:2px}
+.bar .v{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
+.bar .w{color:var(--muted);font-variant-numeric:tabular-nums;font-size:12px}
+.ok{background:color-mix(in srgb,var(--pass) 16%,transparent);color:var(--pass)}
+.md{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn)}
+.bd{background:color-mix(in srgb,var(--fail) 14%,transparent);color:var(--fail)}
+.f-ok{background:var(--pass)}.f-md{background:var(--warn)}.f-bd{background:var(--fail)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:0 0 24px}
+@media (max-width:700px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stat{background:var(--surface);padding:14px 16px}
+.stat .n{font-family:var(--serif);font-size:28px;color:var(--navy-ink);font-variant-numeric:tabular-nums;line-height:1.2}
+.stat .t{font-size:13px;color:var(--muted)}
+.finding{border-left:4px solid var(--line);background:var(--surface);padding:14px 18px;margin:0 0 12px}
+.finding.c{border-left-color:var(--fail)}.finding.h{border-left-color:var(--warn)}.finding.m{border-left-color:var(--gold)}.finding.l{border-left-color:var(--muted)}
+.finding .hd{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline;margin-bottom:6px}
+.finding .hd strong{font-size:16px}
+.sev{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:1px 8px;border-radius:3px}
+.sev.c{background:color-mix(in srgb,var(--fail) 14%,transparent);color:var(--fail)}
+.sev.h{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn)}
+.sev.m{background:color-mix(in srgb,var(--gold) 16%,transparent);color:var(--gold)}
+.sev.l{background:var(--tint);color:var(--muted)}
+.finding p{margin:0 0 6px;font-size:15px}
+.finding .fix{font-size:15px}
+.finding .fix::before{content:"Cách sửa: ";font-weight:600;color:var(--pass)}
+.works{list-style:none;padding:0;margin:0 0 18px;display:grid;gap:4px;font-size:15px}
+.works li::before{content:"✓";color:var(--pass);font-weight:700;margin-right:8px}
+.tbl{overflow-x:auto;margin:0 0 20px;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--surface)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--tint)}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.phase{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;padding:16px 0;border-top:1px solid var(--line)}
+@media (max-width:600px){.phase{grid-template-columns:1fr;gap:4px}}
+.phase h4{margin:0;font-size:15px;color:var(--navy-ink)}
+.phase .when{font-size:13px;color:var(--gold);font-weight:600}
+.phase ol{margin:0;padding-left:20px;font-size:15px;display:grid;gap:4px}
+.note{background:var(--tint);padding:12px 16px;font-size:14px;color:var(--muted);margin:0 0 16px;max-width:none}
+pre{background:var(--tint);padding:12px 14px;overflow-x:auto;font-family:var(--mono);font-size:13px;line-height:1.5;border:1px solid var(--line)}
+footer{max-width:1120px;margin:0 auto;color:var(--muted);font-size:13px;padding-top:16px}
+@media (prefers-reduced-motion:no-preference){.fill{animation:grow .8s ease-out both}@keyframes grow{from{transform:scaleX(.2);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}}
+</style>
+<header class="cover">
+  <div>
+    <div class="eyebrow">Báo cáo kiểm toán SEO toàn site</div>
+    <h1>taichinh-thanglong.com</h1>
+    <div class="meta">
+      <span><b>Doanh nghiệp:</b> Công ty Dịch vụ Tài chính Thăng Long</span>
+      <span><b>Loại hình:</b> Dịch vụ chứng minh tài chính du học, du lịch, xin visa, năng lực tài chính doanh nghiệp</span>
+      <span><b>Nhóm nội dung:</b> YMYL (tài chính), Google áp chuẩn E-E-A-T cao nhất</span>
+      <span><b>Nền tảng:</b> WordPress 7.1, Flatsome, WooCommerce, Yoast SEO, LiteSpeed, PHP 7.4</span>
+      <span><b>Ngày kiểm tra:</b> 26/09/2026</span>
+      <span><b>Phạm vi:</b> 150 URL trong sitemap + 2 URL kiểm thử + 4 biến thể tên miền</span>
+    </div>
+  </div>
+  <div class="score" aria-label="Điểm sức khỏe SEO 39 trên 100">
+    <div class="num">39</div>
+    <div class="of">/ 100 điểm</div>
+    <div class="lbl">Yếu, lỗi nền tảng</div>
+  </div>
+</header>
+
+<div class="wrap">
+<nav class="toc" aria-label="Mục lục">
+  <a href="#tomtat">Tóm tắt</a>
+  <a href="#ymyl">YMYL, thương hiệu &amp; E-E-A-T</a>
+  <a href="#kythuat">Kỹ thuật &amp; sitemap</a>
+  <a href="#onpage">On-page</a>
+  <a href="#noidung">Nội dung</a>
+  <a href="#schema">Schema</a>
+  <a href="#hieunang">Hiệu năng</a>
+  <a href="#hinhanh">Hình ảnh</a>
+  <a href="#ai">AI Search (GEO)</a>
+  <a href="#kehoach">Kế hoạch hành động</a>
+  <a href="#phuongphap">Phương pháp</a>
+</nav>
+
+<main>
+<section id="tomtat">
+  <h2>Tóm tắt</h2>
+  <p class="lede">Site có khoảng 15 trang dịch vụ dài (2.200–4.800 chữ) nhắm đúng nhóm từ khóa "chứng minh tài chính du học/du lịch" theo từng nước. Đây là tài sản tốt. Nhưng nền tảng site đang có 3 lỗi lớn. Thứ nhất, toàn site vẫn khai báo <code>http://</code> là bản chính thức (canonical, schema, sitemap), và bản http không chuyển hướng sang https. Thứ hai, 107/150 URL trong sitemap là sản phẩm và block demo của theme Flatsome (áo, giày, "woo-ninja"…). Thứ ba, trang Giới thiệu ghi site thuộc về một công ty khác (CMTC Khoa Lê), còn mục tin tức chỉ có 8 bài năm 2019 về xuất khẩu lao động. Với lĩnh vực tài chính, Google xét rất kỹ ai đứng sau website, nên các lỗi này ảnh hưởng tới toàn bộ thứ hạng.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">107/150</div><div class="t">URL trong sitemap là nội dung demo của theme</div></div>
+    <div class="stat"><div class="n">0/150</div><div class="t">Trang có meta description</div></div>
+    <div class="stat"><div class="n">13/15</div><div class="t">Trang dịch vụ chính không có thẻ H1</div></div>
+    <div class="stat"><div class="n">14,6 s</div><div class="t">LCP trang chủ trên mobile (nên dưới 2,5 s)</div></div>
+  </div>
+
+  <h3>Điểm theo hạng mục</h3>
+  <div class="bars" role="list">
+    <div class="bar" role="listitem"><span>Kỹ thuật</span><div class="track"><div class="fill f-bd" style="width:42%"></div></div><span class="v">42</span><span class="w">22%</span></div>
+    <div class="bar" role="listitem"><span>Nội dung &amp; E-E-A-T</span><div class="track"><div class="fill f-bd" style="width:35%"></div></div><span class="v">35</span><span class="w">23%</span></div>
+    <div class="bar" role="listitem"><span>On-page</span><div class="track"><div class="fill f-bd" style="width:35%"></div></div><span class="v">35</span><span class="w">20%</span></div>
+    <div class="bar" role="listitem"><span>Schema</span><div class="track"><div class="fill f-bd" style="width:30%"></div></div><span class="v">30</span><span class="w">10%</span></div>
+    <div class="bar" role="listitem"><span>Hiệu năng</span><div class="track"><div class="fill f-md" style="width:58%"></div></div><span class="v">58</span><span class="w">10%</span></div>
+    <div class="bar" role="listitem"><span>AI Search</span><div class="track"><div class="fill f-bd" style="width:40%"></div></div><span class="v">40</span><span class="w">10%</span></div>
+    <div class="bar" role="listitem"><span>Hình ảnh</span><div class="track"><div class="fill f-bd" style="width:35%"></div></div><span class="v">35</span><span class="w">5%</span></div>
+  </div>
+  <p class="note">Cột phải là trọng số của hạng mục trong điểm tổng. Thang màu: xanh từ 70 trở lên, cam 50–69, đỏ dưới 50.</p>
+
+  <h3>5 vấn đề nghiêm trọng nhất</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>Vấn đề</th><th>Mức độ</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Canonical, og:url, JSON-LD, robots.txt và sitemap đều dùng <code>http://</code>; truy cập http trả 200 thay vì 301 sang https</td><td><span class="sev c">Nghiêm trọng</span></td></tr>
+      <tr><td>2</td><td>107/150 URL trong sitemap (71%) là dữ liệu demo: 57 sản phẩm mẫu, 42 danh mục/thẻ sản phẩm, 8 block rỗng, tất cả đều cho index</td><td><span class="sev c">Nghiêm trọng</span></td></tr>
+      <tr><td>3</td><td>Trang <code>/gioi-thieu/</code> ghi site "thuộc sở hữu của Công ty TNHH Dịch vụ Tư vấn Khoa Lê", H1 là "GIỚI THIỆU CMTC KHOA LÊ"</td><td><span class="sev c">Nghiêm trọng</span></td></tr>
+      <tr><td>4</td><td>0/150 trang có meta description; 13/15 trang dịch vụ và trang chủ không có H1</td><td><span class="sev h">Cao</span></td></tr>
+      <tr><td>5</td><td>Tin tức chỉ gồm 8 bài ngày 26/07/2019 về xuất khẩu lao động của "TTC Việt Nam", hiển thị trên trang chủ và sidebar mọi trang</td><td><span class="sev h">Cao</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>5 việc làm nhanh, hiệu quả cao</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Việc cần làm</th><th>Thời gian</th></tr></thead>
+    <tbody>
+      <tr><td>Cài đặt → Tổng quan: đổi "Địa chỉ WordPress" và "Địa chỉ trang" sang <code>https://</code>; thêm 301 http → https trong <code>.htaccess</code></td><td class="n">15 phút</td></tr>
+      <tr><td>Xóa vĩnh viễn toàn bộ sản phẩm, danh mục, thẻ và UX Blocks demo; tắt WooCommerce nếu không bán hàng online</td><td class="n">30 phút</td></tr>
+      <tr><td>Yoast → Giao diện tìm kiếm: tắt Sản phẩm, Blocks, trang tác giả khỏi kết quả tìm kiếm và sitemap</td><td class="n">10 phút</td></tr>
+      <tr><td>Xóa chữ mẫu "Assign a menu in Theme Options &gt; Menus" và khối "TOP 10 … trước năm 2018" lặp 3 lần trên trang chủ</td><td class="n">10 phút</td></tr>
+      <tr><td>Đổi title trang chủ "Trang chủ - TÀI CHÍNH THĂNG LONG" thành câu có từ khóa, viết meta description cho trang chủ</td><td class="n">10 phút</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="ymyl">
+  <h2>YMYL, thương hiệu &amp; E-E-A-T</h2>
+  <p class="lede">Dịch vụ tài chính, mở sổ tiết kiệm và hồ sơ visa thuộc nhóm "Your Money or Your Life". Với nhóm này, người đánh giá chất lượng của Google trước hết kiểm tra: doanh nghiệp nào đứng sau website, có thông tin pháp lý rõ ràng không, người viết có chuyên môn không. Hiện site có 3 danh tính khác nhau (Tài Chính Thăng Long, CMTC Khoa Lê, TTC Việt Nam), đây là điểm yếu lớn nhất, quan trọng hơn mọi lỗi kỹ thuật bên dưới.</p>
+
+  <div class="finding c"><div class="hd"><span class="sev c">Nghiêm trọng</span><strong>Trang Giới thiệu nói về một công ty khác</strong></div>
+    <p><code>/gioi-thieu/</code> có H1 "GIỚI THIỆU CMTC KHOA LÊ" và viết: "Trang thông tin chungminhtaichinh.vn (CMTC Khoa Lê, Tài Chính Khoa Lê) thuộc sở hữu của Công ty TNHH Dịch vụ Tư vấn Khoa Lê, trang chủ là khoale.com.vn". Một trang thứ hai, <code>/gioi-thieu-2/</code>, mới là giới thiệu của Tài Chính Thăng Long, và 2 trang trùng title "Giới thiệu". Người đọc và Google không xác định được ai cung cấp dịch vụ, đồng thời đây là nội dung trùng với site khác.</p>
+    <p class="fix">Viết lại <code>/gioi-thieu/</code> bằng thông tin thật: tên pháp nhân, mã số doanh nghiệp, người đại diện, năm thành lập, địa chỉ 19 Bà Triệu, ảnh văn phòng và đội ngũ. Gộp <code>/gioi-thieu-2/</code> về trang này bằng 301.</p></div>
+
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Nội dung còn lại từ công ty xuất khẩu lao động</strong></div>
+    <p>8 bài viết, 3 chuyên mục ("Bản tin TTC", "Tin thị trường"), các trang <code>/tuyen-dung-lao-dong/</code>, <code>/dao-tao/</code>, <code>/thu-vien-anh/</code> đều nói về công ty xuất khẩu lao động TTC Việt Nam. Khối "Tin tức" trên trang chủ và sidebar của mọi trang dịch vụ hiển thị các bài này.</p>
+    <p class="fix">Xóa hoặc noindex toàn bộ nội dung TTC, 301 các URL có traffic về trang dịch vụ gần nhất. Thay khối tin tức bằng bài đúng chủ đề chứng minh tài chính.</p></div>
+
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Thiếu tín hiệu tin cậy của một dịch vụ tài chính</strong></div>
+    <p>Không có mã số doanh nghiệp, không có đánh giá khách hàng, email liên hệ là Gmail (<code>dichvutaichinhthanglong@gmail.com</code>). Bài viết không có tác giả đứng tên, không có ngày cập nhật, không trích dẫn nguồn chính thức (website đại sứ quán, quy định visa). Trang chủ có câu "hướng tới TOP 10 doanh nghiệp Tài chính Việt Nam trước năm 2018", lặp 3 lần, cho thấy nội dung không được cập nhật.</p>
+    <p class="fix">Công bố mã số doanh nghiệp và địa chỉ ở footer. Dùng email tên miền riêng. Thêm hộp tác giả (tên, số năm kinh nghiệm), ngày cập nhật và nguồn chính thức cho mỗi trang dịch vụ. Mô tả rõ quy trình, chi phí và điều khoản của dịch vụ. Thu thập đánh giá thật trên Google Business Profile.</p></div>
+</section>
+
+<section id="kythuat">
+  <h2>Kỹ thuật &amp; sitemap <span class="sc bd">42/100</span></h2>
+  <ul class="works">
+    <li>https hoạt động, có HSTS và các header bảo mật (X-Frame-Options, nosniff, Referrer-Policy)</li>
+    <li>www chuyển 301 về tên miền gốc; URL không tồn tại trả 404 chuẩn</li>
+    <li>Giỏ hàng, tài khoản, trang tìm kiếm đã noindex; robots.txt chặn đúng <code>/wp-admin/</code></li>
+  </ul>
+
+  <div class="finding c"><div class="hd"><span class="sev c">Nghiêm trọng</span><strong>Toàn site khai báo http:// là bản chính thức</strong></div>
+    <p>Trên trang https, thẻ canonical là <code>&lt;link rel="canonical" href="http://taichinh-thanglong.com/"&gt;</code>; og:url và mọi <code>@id</code> trong JSON-LD cũng dùng http. <code>http://taichinh-thanglong.com/</code> trả 200 thay vì chuyển hướng. <code>robots.txt</code> khai báo <code>Sitemap: http://…/sitemap_index.xml</code>, và sitemap index liệt kê 8 sitemap con bằng http. Google thấy 2 bản của mỗi trang và được yêu cầu chọn bản không bảo mật.</p>
+    <p class="fix">Cài đặt → Tổng quan: đổi cả 2 địa chỉ sang <code>https://taichinh-thanglong.com</code>. Thêm 301 http → https trên LiteSpeed. Chạy Better Search Replace đổi <code>http://taichinh-thanglong.com</code> → <code>https://…</code> trong database. Gửi lại sitemap https trong Search Console.</p></div>
+
+  <div class="finding c"><div class="hd"><span class="sev c">Nghiêm trọng</span><strong>71% sitemap là nội dung demo của theme</strong></div>
+    <p><code>product-sitemap.xml</code> có 57 sản phẩm mẫu như <code>/product/luxury-hotel/</code>, <code>/product/woo-ninja-3/</code>, <code>/product/u-old-skool-vans/</code>. <code>product_cat</code> (15 URL), <code>product_tag</code> (27 URL) và <code>blocks-sitemap</code> (8 block rỗng, không có title) cũng là dữ liệu mẫu. Tất cả đều có robots "index, follow". Google phải crawl 107 trang rác và khó xác định chủ đề của site.</p>
+    <p class="fix">Xóa vĩnh viễn sản phẩm, danh mục, thẻ và UX Blocks mẫu. Nếu không bán online thì tắt WooCommerce. Các URL đã bị index nên trả 410.</p></div>
+
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Máy chủ phản hồi chậm, PHP hết hỗ trợ</strong></div>
+    <p>Thời gian tải HTML trung bình 1,86 giây trên 150 URL (cao nhất 2,66 giây); Lighthouse đo TTFB 850–930 ms. Máy chủ chạy PHP 7.4.23, phiên bản đã ngừng nhận bản vá bảo mật từ 11/2022.</p>
+    <p class="fix">Máy chủ đã là LiteSpeed: cài và bật LiteSpeed Cache (page cache). Nâng PHP lên 8.2/8.3 sau khi kiểm tra plugin. Mục tiêu TTFB dưới 0,6 giây.</p></div>
+
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Trang trùng lặp và trang rỗng</strong></div>
+    <p><code>/main/</code>, <code>/cmtc-du-hoc/</code>, <code>/cmtc-du-lich/</code> chỉ có form đăng ký và danh sách bài xuất khẩu lao động (khoảng 310 chữ). Nhiều slug có đuôi "-2" (<code>…-du-lich-dai-loan-2/</code>, <code>…-du-lich-nhat-ban-2/</code>, <code>/gioi-thieu-2/</code>) do tạo trang trùng.</p>
+    <p class="fix">Xóa hoặc noindex <code>/main/</code>. Biến <code>/cmtc-du-hoc/</code> và <code>/cmtc-du-lich/</code> thành trang tổng hợp dẫn tới từng nước, hoặc 301 về trang dịch vụ tương ứng.</p></div>
+</section>
+
+<section id="onpage">
+  <h2>On-page <span class="sc bd">35/100</span></h2>
+  <ul class="works">
+    <li>Title trang dịch vụ có từ khóa chính (vd. "Chứng minh tài chính du học Mỹ")</li>
+    <li>URL không dấu, mô tả đúng nội dung; trang dịch vụ có cấu trúc H2 rõ ràng</li>
+  </ul>
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Không có meta description</strong></div>
+    <p>0/150 URL có meta description. Google phải tự lấy đoạn văn bất kỳ, thường là menu hoặc chữ trong banner, nên đoạn mô tả trên kết quả tìm kiếm kém hấp dẫn.</p>
+    <p class="fix">Viết meta description 140–160 ký tự trong Yoast cho trang chủ và 15 trang dịch vụ: từ khóa + lợi ích + lời kêu gọi (vd. "Tư vấn miễn phí, thu phí sau khi hoàn thành").</p></div>
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Trang dịch vụ thiếu H1</strong></div>
+    <p>74/150 URL không có H1, gồm trang chủ và 13/15 trang dịch vụ (du học Mỹ, Canada, Úc, Nhật; du lịch Úc, Nhật, Đài Loan; doanh nghiệp…). Tiêu đề đầu bài đang là thẻ <code>&lt;h3&gt;</code> với CSS inline.</p>
+    <p class="fix">Đổi dòng tiêu đề đầu mỗi bài từ <code>h3</code> sang <code>h1</code>. Trang chủ thêm H1 như "Dịch vụ chứng minh tài chính du học, du lịch, xin visa".</p></div>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Title chưa tối ưu</strong></div>
+    <p>Title trang chủ là "Trang chủ - TÀI CHÍNH THĂNG LONG", không có từ khóa dịch vụ. Hậu tố thương hiệu viết HOA dài 22 ký tự trên mọi trang. 8 bài tin tức có title 90–146 ký tự.</p>
+    <p class="fix">Trang chủ: "Dịch vụ chứng minh tài chính du học, du lịch | Tài Chính Thăng Long". Rút hậu tố thành "| Thăng Long". Giữ title dưới 60 ký tự.</p></div>
+</section>
+
+<section id="noidung">
+  <h2>Nội dung <span class="sc bd">35/100</span></h2>
+  <ul class="works">
+    <li>Trang dịch vụ dài (2.200–4.800 chữ): thủ tục, số tiền cần chứng minh, quy trình, lý do bị từ chối visa, câu hỏi thường gặp</li>
+    <li>Trang chủ nêu rõ phạm vi 34 tỉnh/thành và danh sách ngân hàng hợp tác</li>
+    <li>Có địa chỉ, hotline 0968 298 686, Zalo, giờ làm việc ở footer</li>
+  </ul>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Nội dung mẫu còn sót trên trang</strong></div>
+    <p>Chữ mẫu của theme "Assign a menu in Theme Options &gt; Menus" hiện trong menu mobile. Khối "Top 10 doanh nghiệp hàng đầu" lặp nguyên văn 3 lần trên trang chủ.</p>
+    <p class="fix">Gán menu mobile trong Theme Options. Thay khối Top 10 bằng số liệu thật: số hồ sơ đã hỗ trợ, số năm hoạt động, số ngân hàng liên kết.</p></div>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Thiếu nội dung theo nhu cầu tìm kiếm</strong></div>
+    <p>Mới có trang cho Mỹ, Canada, Úc, Nhật, Đài Loan. Chưa có Hàn Quốc, Đức, Anh, Schengen, dù trang chủ nhắc tới Hàn Quốc là "thị trường khó tính". Chuyên mục "Kiến thức" trỏ tới <code>/tin-tuc/</code>, nơi chỉ có bài xuất khẩu lao động.</p>
+    <p class="fix">Lịch 4–6 bài/tháng đúng chủ đề: chứng minh tài chính theo từng nước, số dư cần có, thời gian mở sổ, hồ sơ visa theo nghề nghiệp.</p></div>
+</section>
+
+<section id="schema">
+  <h2>Schema <span class="sc bd">30/100</span></h2>
+  <ul class="works">
+    <li>Yoast xuất WebSite, WebPage, BreadcrumbList; Article cho bài viết</li>
+  </ul>
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Không có schema doanh nghiệp</strong></div>
+    <p>Không có <code>Organization</code>, <code>LocalBusiness</code> hay <code>FinancialService</code>. Google và AI không có dữ liệu có cấu trúc về tên công ty, địa chỉ, điện thoại, giờ làm việc, logo, fanpage. Mô tả của WebSite để trống.</p>
+    <p class="fix">Yoast → Đại diện trang: chọn "Tổ chức", nhập tên và logo. Thêm JSON-LD <code>FinancialService</code> với <code>address</code> (19 Bà Triệu, Hoàn Kiếm, Hà Nội), <code>telephone</code>, <code>openingHours</code> (T2–T6 08:00–17:30), <code>areaServed</code>, <code>sameAs</code> (Facebook, Zalo).</p></div>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Schema dùng http và thiếu Service</strong></div>
+    <p>Mọi <code>@id</code> và <code>url</code> trong JSON-LD là http. Trang dịch vụ chỉ được đánh dấu WebPage chung chung. Mục "Các câu hỏi thường gặp" không có FAQPage.</p>
+    <p class="fix">Tự khắc phục khi chuyển sang https. Thêm <code>Service</code> cho từng trang dịch vụ (serviceType, provider, areaServed). FAQPage không còn hiện rich result với đa số site nhưng vẫn giúp AI hiểu nội dung.</p></div>
+</section>
+
+<section id="hieunang">
+  <h2>Hiệu năng <span class="sc md">58/100</span></h2>
+  <p class="note">Số liệu lab đo bằng Lighthouse 12 (mô phỏng mobile). Chưa có dữ liệu thực tế từ người dùng (CrUX) vì hạn mức PageSpeed Insights API đã hết.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Trang</th><th>Điểm</th><th>LCP</th><th>FCP</th><th>TTFB</th><th>CLS</th><th>Dung lượng</th></tr></thead>
+    <tbody>
+      <tr><td>Trang chủ</td><td class="n" style="color:var(--warn)">69</td><td class="n">14,6 s</td><td class="n">2,3 s</td><td class="n">0,85 s</td><td class="n">0</td><td class="n">4,9 MB</td></tr>
+      <tr><td>Dịch vụ CMTC du học</td><td class="n" style="color:var(--pass)">83</td><td class="n">3,9 s</td><td class="n">2,3 s</td><td class="n">0,90 s</td><td class="n">0</td><td class="n">3,2 MB</td></tr>
+      <tr><td>Sản phẩm demo</td><td class="n" style="color:var(--pass)">74</td><td class="n">5,7 s</td><td class="n">2,3 s</td><td class="n">0,93 s</td><td class="n">0</td><td class="n">3,3 MB</td></tr>
+    </tbody>
+  </table></div>
+  <div class="finding h"><div class="hd"><span class="sev h">Cao</span><strong>Ảnh banner PNG nặng làm LCP trang chủ 14,6 giây</strong></div>
+    <p>Phần tử LCP là ảnh nền banner (background-image), trình duyệt phát hiện muộn. Hai ảnh PNG lớn nhất nặng 1,4 MB và 1,27 MB. Lighthouse ước tính giảm được 3,8 MB nếu dùng WebP/AVIF và 2,4 MB nếu lazy-load ảnh ngoài màn hình. JavaScript nhẹ (TBT 20–40 ms), CLS bằng 0.</p>
+    <p class="fix">Chuyển banner sang thẻ <code>&lt;img&gt;</code> với <code>fetchpriority="high"</code>, nén WebP dưới 150 KB. Bật WebP, lazy-load, gộp và defer CSS/JS trong LiteSpeed Cache (CSS chặn hiển thị khoảng 1,2 s).</p></div>
+</section>
+
+<section id="hinhanh">
+  <h2>Hình ảnh <span class="sc bd">35/100</span></h2>
+  <div class="stats">
+    <div class="stat"><div class="n">2.338</div><div class="t">Thẻ ảnh trên 150 trang</div></div>
+    <div class="stat"><div class="n">46%</div><div class="t">Thiếu alt</div></div>
+    <div class="stat"><div class="n">18%</div><div class="t">Thiếu width/height</div></div>
+    <div class="stat"><div class="n">0</div><div class="t">Ảnh WebP</div></div>
+  </div>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Ảnh lưu trên dịch vụ miễn phí bên ngoài</strong></div>
+    <p>143/150 trang tải ảnh từ <code>cdn.phototourl.com/free/…</code>, gồm cả các ảnh lớn nhất trang chủ. Dịch vụ miễn phí có thể xóa ảnh bất cứ lúc nào, và giá trị SEO của ảnh không thuộc về tên miền của bạn.</p>
+    <p class="fix">Tải ảnh về thư viện Media của WordPress, nén WebP, đặt tên file có từ khóa.</p></div>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Thiếu alt</strong></div>
+    <p>1.083/2.338 thẻ ảnh không có alt; trang chủ 14/19 ảnh. Lighthouse báo thêm link không có tên và độ tương phản chữ thấp.</p>
+    <p class="fix">Alt mô tả cho ảnh nội dung (vd. "Sổ tiết kiệm chứng minh tài chính du học Úc"); ảnh trang trí để <code>alt=""</code>.</p></div>
+</section>
+
+<section id="ai">
+  <h2>AI Search (GEO) <span class="sc bd">40/100</span></h2>
+  <ul class="works">
+    <li>robots.txt không chặn bot AI; nội dung render sẵn bằng HTML</li>
+    <li>Trang dịch vụ có cấu trúc hỏi–đáp, dễ trích dẫn</li>
+  </ul>
+  <div class="finding m"><div class="hd"><span class="sev m">Trung bình</span><strong>Thương hiệu không nhất quán, câu trả lời nằm sâu</strong></div>
+    <p>ChatGPT, Gemini và AI Overviews xác định doanh nghiệp qua sự nhất quán của tên, địa chỉ, chủ sở hữu. Site đang có 3 tên khác nhau. Câu trả lời cho câu hỏi chính (vd. "du học Mỹ cần chứng minh bao nhiêu tiền") nằm sâu trong bài, ít số liệu có nguồn. <code>/llms.txt</code> trả 404.</p>
+    <p class="fix">Thống nhất một tên thương hiệu trên site, schema, Google Business Profile, Facebook. Mở đầu mỗi trang bằng 2–3 câu trả lời ngắn có số liệu và nguồn. Tạo <code>llms.txt</code> liệt kê các trang dịch vụ.</p></div>
+</section>
+
+<section id="kehoach">
+  <h2>Kế hoạch hành động</h2>
+  <div class="phase"><div><h4>Giai đoạn 1: Nền tảng</h4><div class="when">Tuần 1</div></div>
+    <ol><li>Chuyển toàn site sang https (địa chỉ WordPress, 301, thay URL trong database), gửi lại sitemap</li><li>Xóa sản phẩm, danh mục, thẻ, UX Blocks demo; tắt WooCommerce nếu không dùng</li><li>Viết lại trang Giới thiệu, gộp <code>/gioi-thieu-2/</code>; xóa chữ mẫu và khối "TOP 10" trên trang chủ</li></ol></div>
+  <div class="phase"><div><h4>Giai đoạn 2: On-page &amp; schema</h4><div class="when">Tuần 2–3</div></div>
+    <ol><li>Meta description và H1 cho trang chủ và 15 trang dịch vụ; sửa title trang chủ</li><li>Organization + FinancialService + Service</li><li>Xóa hoặc noindex nội dung TTC (8 bài, 3 chuyên mục, Tuyển dụng, Đào tạo, Thư viện ảnh)</li></ol></div>
+  <div class="phase"><div><h4>Giai đoạn 3: Hiệu năng &amp; ảnh</h4><div class="when">Tuần 3–4</div></div>
+    <ol><li>LiteSpeed Cache: page cache, WebP, lazy-load, tối ưu CSS/JS</li><li>Banner LCP dạng <code>&lt;img&gt;</code> ưu tiên cao, dưới 150 KB; chuyển ảnh từ phototourl.com về Media</li><li>Nâng PHP 7.4 lên 8.2/8.3; điền alt</li></ol></div>
+  <div class="phase"><div><h4>Giai đoạn 4: E-E-A-T &amp; theo dõi</h4><div class="when">Tháng 2–3</div></div>
+    <ol><li>Hộp tác giả, ngày cập nhật, nguồn chính thức; mã số doanh nghiệp, email tên miền</li><li>Trang mới cho Hàn Quốc, Đức, Anh, Schengen; 4–6 bài/tháng</li><li>Kết nối Search Console, Google Business Profile; audit lại sau 30 ngày</li></ol></div>
+</section>
+
+<section id="phuongphap">
+  <h2>Phương pháp</h2>
+  <p>Ngày 26/09/2026 crawl toàn bộ 150 URL trong 8 sitemap Yoast, cùng 1 URL không tồn tại và 1 trang tìm kiếm để kiểm tra phản hồi. Kiểm tra chuyển hướng của 4 biến thể tên miền (http/https, có/không www). Mỗi trang được kiểm tra mã trạng thái, thời gian phản hồi, title, meta, canonical, robots, heading, JSON-LD, ảnh và số chữ. Đo hiệu năng bằng Lighthouse 12 trên trang chủ, một trang dịch vụ và một sản phẩm demo. Điểm tổng là trung bình có trọng số: Kỹ thuật 22%, Nội dung 23%, On-page 20%, Schema 10%, Hiệu năng 10%, AI Search 10%, Hình ảnh 5%.</p>
+  <p class="note">Đây là audit SEO ở mức tiêu chuẩn, không phải tư vấn pháp lý. Chưa bao gồm dữ liệu Search Console, GA4, CrUX và backlink.</p>
+</section>
+</main>
+</div>
+<footer>Dữ liệu thu thập ngày 26/09/2026</footer>
